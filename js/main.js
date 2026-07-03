@@ -119,20 +119,36 @@ GALLERY.forEach((item, i) => {
   grid.appendChild(fig);
 });
 
-/* Aligned masonry: give each tile a grid-row span sized from its own aspect
-   ratio, so columns AND rows line up while heights stay varied and playful. */
+/* Balanced masonry: each tile is sized from its own aspect ratio, then placed
+   into the currently-shortest column so the bottom edge lines up instead of
+   ending raggedly. A small symmetric offset pushes the outer columns down and
+   keeps the inner ones up — an intentional cascade: staggered top, level bottom. */
 const GAL_ROW = 8, GAL_GAP = 14;
 function layoutGallery() {
-  if (!grid.children.length) return;
+  const figs = [...grid.children];
+  if (!figs.length) return;
   const cs = getComputedStyle(grid);
   const cols = cs.gridTemplateColumns.split(" ").filter(Boolean).length || 1;
   const colW = (grid.clientWidth - GAL_GAP * (cols - 1)) / cols;
-  for (const fig of grid.children) {
+  const spanOf = fig => {
     const item = GALLERY[+fig.dataset.index];
     const ratio = item && item.w && item.h ? item.h / item.w : 0.72;
     const h = colW * ratio;
-    const span = Math.max(1, Math.round((h + GAL_GAP) / (GAL_ROW + GAL_GAP)));
+    return Math.max(1, Math.round((h + GAL_GAP) / (GAL_ROW + GAL_GAP)));
+  };
+  // Next free row-line per column (1-indexed). Seed outer columns lower for a
+  // gentle symmetric cascade; single-column mobile stays flush.
+  const OFFSET = 3;
+  const nextRow = new Array(cols).fill(1);
+  if (cols >= 3) { nextRow[0] += OFFSET; nextRow[cols - 1] += OFFSET; }
+  for (const fig of figs) {
+    let c = 0;
+    for (let k = 1; k < cols; k++) if (nextRow[k] < nextRow[c]) c = k;
+    const span = spanOf(fig);
+    fig.style.gridColumnStart = c + 1;
+    fig.style.gridRowStart = nextRow[c];
     fig.style.gridRowEnd = "span " + span;
+    nextRow[c] += span;
   }
 }
 layoutGallery();
