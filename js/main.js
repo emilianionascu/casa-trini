@@ -30,7 +30,7 @@ const GOOGLE_PLACES = {
 };
 // Hand-picked quotes shown when no API key is set. Replace with real Google reviews.
 const TESTIMONIALS = [
-  { name: "Marta", when: "Google review", rating: 5, text: "An authentic Formentera home surrounded by a huge green garden. The pool is enormous and the two houses gave our family all the space and privacy we needed." },
+  { name: "Marta", when: "Google review", rating: 5, text: "An authentic Formentera home surrounded by a huge green garden. The pool is enormous and the house gave our family all the space and privacy we needed." },
   { name: "Thomas", when: "Google review", rating: 5, text: "Peaceful, rustic and beautifully kept. Ten minutes on foot to the sea, yet you feel completely secluded. We will be back." },
   { name: "Giulia", when: "Google review", rating: 5, text: "Wonderful hosts and a magical setting — whitewashed walls, stone, pines and flowers everywhere. The perfect base to discover the island." }
 ];
@@ -111,9 +111,35 @@ GALLERY.forEach((item, i) => {
   const img = document.createElement("img");
   img.src = item.src;
   img.loading = "lazy";
-  img.alt = "Casa Trini Formentera — photo " + (i + 1);
+  img.decoding = "async";
+  if (item.w) img.width = item.w;
+  if (item.h) img.height = item.h;
+  img.alt = "Casa Trini Formentera — holiday home in Formentera, photo " + (i + 1);
   fig.appendChild(img);
   grid.appendChild(fig);
+});
+
+/* Aligned masonry: give each tile a grid-row span sized from its own aspect
+   ratio, so columns AND rows line up while heights stay varied and playful. */
+const GAL_ROW = 8, GAL_GAP = 14;
+function layoutGallery() {
+  if (!grid.children.length) return;
+  const cs = getComputedStyle(grid);
+  const cols = cs.gridTemplateColumns.split(" ").filter(Boolean).length || 1;
+  const colW = (grid.clientWidth - GAL_GAP * (cols - 1)) / cols;
+  for (const fig of grid.children) {
+    const item = GALLERY[+fig.dataset.index];
+    const ratio = item && item.w && item.h ? item.h / item.w : 0.72;
+    const h = colW * ratio;
+    const span = Math.max(1, Math.round((h + GAL_GAP) / (GAL_ROW + GAL_GAP)));
+    fig.style.gridRowEnd = "span " + span;
+  }
+}
+layoutGallery();
+let galResizeRAF;
+window.addEventListener("resize", () => {
+  cancelAnimationFrame(galResizeRAF);
+  galResizeRAF = requestAnimationFrame(layoutGallery);
 });
 
 /* ---------- Lightbox ---------- */

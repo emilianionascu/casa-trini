@@ -76,6 +76,20 @@ selector in the header. The choice is remembered (localStorage) and the site
 auto-detects the visitor's browser language on first visit. The brand tagline
 *"Vive Formentera auténtica"* is intentionally kept in Spanish in every language.
 
+## Performance & SEO
+
+- **Images**: all photos are optimised to **WebP** (long edge ≤ 1400 px, hero ≤ 2000 px),
+  cutting the gallery from ~16 MB to ~7 MB. Each `<img>` has explicit `width`/`height`
+  and `loading="lazy"` + `decoding="async"` to avoid layout shift. To optimise new
+  uploads, run `npm i sharp` then `node scripts/optimize-images.js assets/images/uploads`
+  and paste the printed lines into the `GALLERY` array in `js/i18n.js`.
+- **SEO**: `index.html` includes a keyword-rich title, meta description, canonical URL,
+  Open Graph + Twitter cards (social preview via `assets/images/og-image.jpg`), and
+  **JSON-LD `LodgingBusiness`** structured data (address, geo, amenities, social links).
+  `robots.txt` and `sitemap.xml` are included; `thanks.html` is `noindex`.
+  All absolute SEO URLs point to the **final domain `https://casatriniformentera.com/`** —
+  correct once the domain is pointed at this site (see below); no change needed then.
+
 ## Deploy
 
 Drag the folder onto [Netlify](https://app.netlify.com/drop), push to GitHub
