@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google" content="notranslate" />
+  <title>Thank you — Casa Trini Formentera</title>
+  <link rel="icon" href="assets/images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .thanks {
+      min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 2rem; gap: .4rem;
+      background: var(--bg-alt);
+    }
+    .thanks .brand-name { font-family: var(--serif); font-size: 1.9rem; color: var(--ink); }
+    .thanks .brand-sub { font-size: .64rem; letter-spacing: .42em; text-transform: uppercase; color: var(--terracotta); margin-bottom: 1.6rem; }
+    .thanks .check {
+      width: 84px; height: 84px; border-radius: 50%; background: var(--terracotta); color: #fff;
+      display: flex; align-items: center; justify-content: center; margin: 0 auto 1.4rem;
+    }
+    .thanks h1 { font-family: var(--serif); font-size: clamp(2rem, 5vw, 2.8rem); margin: 0 0 .5rem; color: var(--ink); }
+    .thanks p { color: #574f45; font-size: 1.1rem; max-width: 520px; margin: 0 auto 1.8rem; }
+  </style>
+</head>
+<body>
+  <main class="thanks">
+    <span class="brand-name">Casa Trini</span>
+    <span class="brand-sub">Formentera</span>
+    <div class="check" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+    </div>
+    <h1 id="tkHeading">Thank you!</h1>
+    <p id="tkText">We've received your inquiry and will get back to you as soon as possible.</p>
+    <a class="btn btn-primary" href="index.html" id="tkBack">Back to home</a>
+  </main>
+
+  <script>
+    var TK = {
+      en: { h: "Thank you!",        t: "We've received your inquiry and will get back to you as soon as possible.", b: "Back to home" },
+      es: { h: "¡Gracias!",         t: "Hemos recibido tu consulta y te responderemos lo antes posible.",             b: "Volver al inicio" },
+      de: { h: "Vielen Dank!",      t: "Wir haben Ihre Anfrage erhalten und melden uns so schnell wie möglich.",       b: "Zurück zur Startseite" },
+      it: { h: "Grazie!",           t: "Abbiamo ricevuto la tua richiesta e ti risponderemo il prima possibile.",       b: "Torna alla home" },
+      fr: { h: "Merci !",           t: "Nous avons bien reçu votre demande et vous répondrons dès que possible.",       b: "Retour à l'accueil" },
+      sv: { h: "Tack!",             t: "Vi har tagit emot din förfrågan och återkommer så snart vi kan.",               b: "Tillbaka till startsidan" }
+    };
+    var lang = "en";
+    try { var s = localStorage.getItem("ct_lang"); if (s && TK[s]) lang = s; } catch (e) {}
+    if (lang === "en") { var n = (navigator.language || "en").slice(0, 2); if (TK[n]) lang = n; }
+    document.documentElement.lang = lang;
+    document.getElementById("tkHeading").textContent = TK[lang].h;
+    document.getElementById("tkText").textContent = TK[lang].t;
+    document.getElementById("tkBack").textContent = TK[lang].b;
+  </script>
+</body>
+</html>
