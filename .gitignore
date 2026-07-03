@@ -7,3 +7,11 @@ desktop.ini
 
 # logs
 *.log
+
+# Jekyll build output / local preview
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+Gemfile.lock
+

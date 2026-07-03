@@ -1,0 +1,21 @@
+# Local blog preview — no Ruby install needed, just Docker.
+#
+#   docker compose up
+#   → open http://localhost:4000/casa-trini/blog/
+#
+# First run installs the gems (a few minutes); later runs are fast because the
+# gems are cached in the named "bundle" volume. Edits to articles/layouts reload
+# automatically. Ctrl+C to stop.
+services:
+  jekyll:
+    image: ruby:3.1
+    working_dir: /site
+    command: sh -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload --force_polling"
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/site
+      - bundle:/usr/local/bundle
+volumes:
+  bundle:
