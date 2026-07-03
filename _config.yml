@@ -41,6 +41,9 @@ plugins:
 # Default site language (used by <html lang> fallbacks)
 lang: en
 
+# Publish articles even if their date is (just) ahead of the build clock.
+future: true
+
 # Keep tooling / build artefacts out of the published site
 exclude:
   - README.md
