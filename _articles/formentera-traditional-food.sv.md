@@ -6,7 +6,8 @@ title: "Traditionell mat på Formentera: raó, peix sec och öns klassiker"
 description: "En guide till Formenteras traditionella mat och när den smakar bäst: höstens raó, peix sec, bullit de peix, flaó och de lokala örtlikörerna hierbas."
 date: 2026-07-01
 category: "Mat & dryck"
-image: /assets/images/gallery-pro/house-pool.webp
+image: /assets/images/blog/food.webp
+image_credit: "Photo: Tamorlan / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

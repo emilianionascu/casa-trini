@@ -6,7 +6,8 @@ title: "Traditional Food of Formentera: Raó, Peix Sec and Island Classics"
 description: "A guide to the traditional food of Formentera and when to eat it: autumn raó (razorfish), peix sec, bullit de peix, flaó and local hierbas liqueur."
 date: 2026-07-01
 category: "Food & Drink"
-image: /assets/images/gallery-pro/house-pool.webp
+image: /assets/images/blog/food.webp
+image_credit: "Photo: Tamorlan / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

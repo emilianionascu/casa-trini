@@ -6,7 +6,7 @@ title: "Sonnenuntergang in Formentera: die 5 schönsten Orte"
 description: "Die besten Orte für den Sonnenuntergang in Formentera — von Cala Saona bis zum Leuchtturm Cap de Barbaria — mit Karten-Links, den besten Zeiten und Anfahrt von der Casa Trini."
 date: 2026-07-01
 category: Strände & Natur
-image: /assets/images/gallery-pro/pool-golden.webp
+image: /assets/images/blog/sunset.webp
 author: Casa Trini Formentera
 ---
 

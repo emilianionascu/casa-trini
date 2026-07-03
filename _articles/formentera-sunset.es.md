@@ -6,7 +6,7 @@ title: "Dónde ver la puesta de sol en Formentera: los 5 mejores lugares"
 description: "Los mejores lugares para ver la puesta de sol en Formentera — de Cala Saona al faro de Cap de Barbaria — con enlaces al mapa, horarios y cómo llegar desde Casa Trini."
 date: 2026-07-01
 category: Playas y naturaleza
-image: /assets/images/gallery-pro/pool-golden.webp
+image: /assets/images/blog/sunset.webp
 author: Casa Trini Formentera
 ---
 

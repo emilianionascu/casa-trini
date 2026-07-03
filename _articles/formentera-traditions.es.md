@@ -6,7 +6,8 @@ title: "Tradiciones y cultura de Formentera: guia de la vida isleña"
 description: "Descubre las tradiciones y la cultura de Formentera: fincas encaladas, sabinares, las salinas de Ses Salines, las fiestas y el ball pagès."
 date: 2026-07-01
 category: "Cultura y tradiciones"
-image: /assets/images/gallery-pro/house-arch.webp
+image: /assets/images/blog/traditions.webp
+image_credit: "Photo: Libens libenter / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

@@ -6,7 +6,7 @@ title: "Discoteche di Ibiza: una serata da Formentera"
 description: "Come vivere la vita notturna di Ibiza in una serata dalla tranquilla Formentera, con bar rilassati, orari dei traghetti e consigli pratici per il clubbing."
 date: 2026-07-01
 category: "Vita notturna"
-image: /assets/images/gallery-pro/p20-landscape.webp
+image: /assets/images/blog/nightlife.webp
 author: Casa Trini Formentera
 ---
 

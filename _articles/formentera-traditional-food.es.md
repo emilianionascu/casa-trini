@@ -6,7 +6,8 @@ title: "Comida tradicional de Formentera: raó, peix sec y clásicos isleños"
 description: "Guía de la comida tradicional de Formentera y cuándo probarla: el raó de otoño, el peix sec, el bullit de peix, el flaó y las hierbas ibicencas."
 date: 2026-07-01
 category: "Gastronomía"
-image: /assets/images/gallery-pro/house-pool.webp
+image: /assets/images/blog/food.webp
+image_credit: "Photo: Tamorlan / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

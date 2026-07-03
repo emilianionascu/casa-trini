@@ -6,7 +6,7 @@ title: "Ibiza Clubs: A Night Out from Formentera"
 description: "How to enjoy Ibiza's world-famous nightlife on a night out from calm Formentera, plus chilled island bars, ferry timings and practical clubbing tips."
 date: 2026-07-01
 category: "Nightlife"
-image: /assets/images/gallery-pro/p20-landscape.webp
+image: /assets/images/blog/nightlife.webp
 author: Casa Trini Formentera
 ---
 

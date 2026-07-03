@@ -6,7 +6,8 @@ title: "Formenteras traditioner och kultur: en guide till ölivet"
 description: "Upptäck Formenteras traditioner och kultur: vitkalkade fincas, sabinaskogar, saltverket Ses Salines, byfester och dansen ball pagès."
 date: 2026-07-01
 category: "Kultur & traditioner"
-image: /assets/images/gallery-pro/house-arch.webp
+image: /assets/images/blog/traditions.webp
+image_credit: "Photo: Libens libenter / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

@@ -6,7 +6,8 @@ title: "Mercati di Formentera: guida ai migliori banchi artigianali"
 description: "Scopri i mercati di Formentera: dall'iconico mercatino hippy di La Mola all'artigianato di Sant Francesc fino ai banchi serali di Es Pujols."
 date: 2026-07-01
 category: "Mercati e shopping"
-image: /assets/images/gallery-pro/p13-portrait.webp
+image: /assets/images/blog/markets.webp
+image_credit: "Photo: Daderot / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

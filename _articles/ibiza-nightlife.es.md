@@ -6,7 +6,7 @@ title: "Discotecas de Ibiza: una noche de fiesta desde Formentera"
 description: "Cómo disfrutar la vida nocturna de Ibiza en una escapada desde la tranquila Formentera, con bares relajados, horarios de ferry y consejos prácticos."
 date: 2026-07-01
 category: "Vida nocturna"
-image: /assets/images/gallery-pro/p20-landscape.webp
+image: /assets/images/blog/nightlife.webp
 author: Casa Trini Formentera
 ---
 

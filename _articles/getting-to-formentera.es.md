@@ -6,7 +6,8 @@ title: "Cómo llegar a Formentera: vuelos, ferris y transporte"
 description: "¿Planeas un viaje a Formentera? Vuela a Ibiza, toma un ferry a La Savina y descubre las mejores formas de moverte por esta pequeña isla balear."
 date: 2026-07-01
 category: "Viaje y transporte"
-image: /assets/images/gallery-pro/p07-landscape.webp
+image: /assets/images/blog/getting-there.webp
+image_credit: "Photo: carlos corzo / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

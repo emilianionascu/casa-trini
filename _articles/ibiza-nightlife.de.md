@@ -6,7 +6,7 @@ title: "Ibiza-Clubs: Eine Partynacht von Formentera aus"
 description: "Wie du Ibizas weltberühmtes Nachtleben von der ruhigen Insel Formentera aus erlebst, plus entspannte Strandbars, Fährzeiten und praktische Clubtipps."
 date: 2026-07-01
 category: "Nachtleben"
-image: /assets/images/gallery-pro/p20-landscape.webp
+image: /assets/images/blog/nightlife.webp
 author: Casa Trini Formentera
 ---
 

@@ -6,7 +6,8 @@ title: "Traditions et culture de Formentera : guide de la vie insulaire"
 description: "Découvrez les traditions et la culture de Formentera : fincas blanchies, forêts de sabina, les salines de Ses Salines, les fêtes et le ball pagès."
 date: 2026-07-01
 category: "Culture et traditions"
-image: /assets/images/gallery-pro/house-arch.webp
+image: /assets/images/blog/traditions.webp
+image_credit: "Photo: Libens libenter / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

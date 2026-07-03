@@ -57,6 +57,7 @@
         <p class="post-meta">
           <time datetime="{{ page.date | date_to_xmlschema }}">{{ t.published }} {{ page.date | date: "%-d %B %Y" }}</time>
         </p>
+        {% if page.image_credit %}<p class="post-credit">{{ page.image_credit }}</p>{% endif %}
       </div>
     </header>
 

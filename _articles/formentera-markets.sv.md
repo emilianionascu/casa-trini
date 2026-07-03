@@ -6,7 +6,8 @@ title: "Formenteras marknader: guide till öns bästa hantverksstånd"
 description: "Upptäck Formenteras marknader: den ikoniska hippiemarknaden i La Mola, hantverket i Sant Francesc och kvällsstånden i Es Pujols. Keramik, smycken och mer."
 date: 2026-07-01
 category: "Marknader & shopping"
-image: /assets/images/gallery-pro/p13-portrait.webp
+image: /assets/images/blog/markets.webp
+image_credit: "Photo: Daderot / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

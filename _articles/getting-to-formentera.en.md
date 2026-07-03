@@ -6,7 +6,8 @@ title: "How to Get to Formentera: Flights, Ferries & Getting Around"
 description: "Planning a trip to Formentera? Fly to Ibiza, hop a ferry to La Savina, and discover the best ways to get around this tiny Balearic island."
 date: 2026-07-01
 category: "Travel & Transport"
-image: /assets/images/gallery-pro/p07-landscape.webp
+image: /assets/images/blog/getting-there.webp
+image_credit: "Photo: carlos corzo / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

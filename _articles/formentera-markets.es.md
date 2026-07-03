@@ -6,7 +6,8 @@ title: "Mercados de Formentera: guía de los mejores puestos artesanos"
 description: "Descubre los mercados de Formentera: el icónico mercadillo hippy de La Mola, la artesanía de Sant Francesc y los puestos nocturnos de Es Pujols."
 date: 2026-07-01
 category: "Mercados y compras"
-image: /assets/images/gallery-pro/p13-portrait.webp
+image: /assets/images/blog/markets.webp
+image_credit: "Photo: Daderot / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

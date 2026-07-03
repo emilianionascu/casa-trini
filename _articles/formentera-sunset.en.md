@@ -6,7 +6,7 @@ title: "Where to Watch the Sunset in Formentera: 5 Best Spots"
 description: "The best places to watch the sunset in Formentera — from Cala Saona to the Cap de Barbaria lighthouse — with map links, the best times and how to reach each from Casa Trini."
 date: 2026-07-01
 category: Beaches & Nature
-image: /assets/images/gallery-pro/pool-golden.webp
+image: /assets/images/blog/sunset.webp
 author: Casa Trini Formentera
 ---
 

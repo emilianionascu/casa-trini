@@ -6,7 +6,8 @@ title: "Märkte auf Formentera: Guide zu den schönsten Kunsthandwerksständen"
 description: "Entdecke die Märkte Formenteras: vom legendären Hippiemarkt La Mola über Kunsthandwerk in Sant Francesc bis zu den Abendständen in Es Pujols."
 date: 2026-07-01
 category: "Märkte & Shopping"
-image: /assets/images/gallery-pro/p13-portrait.webp
+image: /assets/images/blog/markets.webp
+image_credit: "Photo: Daderot / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

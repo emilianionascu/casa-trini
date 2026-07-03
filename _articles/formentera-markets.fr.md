@@ -6,7 +6,8 @@ title: "Marchés de Formentera : guide des plus beaux stands artisanaux"
 description: "Découvrez les marchés de Formentera : le marché hippie mythique de La Mola, l'artisanat de Sant Francesc et les stands du soir d'Es Pujols."
 date: 2026-07-01
 category: "Marchés et shopping"
-image: /assets/images/gallery-pro/p13-portrait.webp
+image: /assets/images/blog/markets.webp
+image_credit: "Photo: Daderot / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

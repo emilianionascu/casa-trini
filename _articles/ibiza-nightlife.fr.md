@@ -6,7 +6,7 @@ title: "Clubs d'Ibiza : une soirée depuis Formentera"
 description: "Comment profiter de la vie nocturne mondialement connue d'Ibiza lors d'une soirée depuis la paisible Formentera, avec bars tranquilles, horaires de ferry et conseils."
 date: 2026-07-01
 category: "Vie nocturne"
-image: /assets/images/gallery-pro/p20-landscape.webp
+image: /assets/images/blog/nightlife.webp
 author: Casa Trini Formentera
 ---
 

@@ -6,7 +6,8 @@ title: "Formentera Traditions & Culture: A Guide to Island Life"
 description: "Discover Formentera's traditions and culture: whitewashed fincas, sabina woods, the Ses Salines salt harvest, village fiestas and the ball pagès dance."
 date: 2026-07-01
 category: "Culture & Traditions"
-image: /assets/images/gallery-pro/house-arch.webp
+image: /assets/images/blog/traditions.webp
+image_credit: "Photo: Libens libenter / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

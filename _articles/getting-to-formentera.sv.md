@@ -6,7 +6,8 @@ title: "Ta sig till Formentera: flyg, färjor och transporter"
 description: "Planerar du en resa till Formentera? Flyg till Ibiza, ta färjan till La Savina och upptäck de bästa sätten att ta dig runt på den lilla ön."
 date: 2026-07-01
 category: "Resa & transport"
-image: /assets/images/gallery-pro/p07-landscape.webp
+image: /assets/images/blog/getting-there.webp
+image_credit: "Photo: carlos corzo / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

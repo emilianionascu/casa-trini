@@ -6,7 +6,8 @@ title: "Come arrivare a Formentera: voli, traghetti e spostamenti"
 description: "Stai organizzando un viaggio a Formentera? Vola a Ibiza, prendi un traghetto per La Savina e scopri i modi migliori per muoverti sull'isola."
 date: 2026-07-01
 category: "Viaggio e trasporti"
-image: /assets/images/gallery-pro/p07-landscape.webp
+image: /assets/images/blog/getting-there.webp
+image_credit: "Photo: carlos corzo / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

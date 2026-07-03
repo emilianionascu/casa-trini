@@ -6,7 +6,8 @@ title: "Traditionen & Kultur Formenteras: ein Leitfaden zum Inselleben"
 description: "Entdecke Formenteras Traditionen und Kultur: weiße Fincas, Sabina-Wälder, die Salinen von Ses Salines, Dorffeste und den Tanz ball pagès."
 date: 2026-07-01
 category: "Kultur & Traditionen"
-image: /assets/images/gallery-pro/house-arch.webp
+image: /assets/images/blog/traditions.webp
+image_credit: "Photo: Libens libenter / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

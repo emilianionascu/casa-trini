@@ -6,7 +6,8 @@ title: "Formentera Markets: A Guide to the Island's Best Artisan Stalls"
 description: "Discover Formentera's markets, from the iconic La Mola hippy market to Sant Francesc crafts and Es Pujols evening stalls. Ceramics, jewellery and more."
 date: 2026-07-01
 category: "Markets & Shopping"
-image: /assets/images/gallery-pro/p13-portrait.webp
+image: /assets/images/blog/markets.webp
+image_credit: "Photo: Daderot / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

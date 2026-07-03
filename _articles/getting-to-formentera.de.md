@@ -6,7 +6,8 @@ title: "Anreise nach Formentera: Flüge, Fähren & Fortbewegung"
 description: "Sie planen eine Reise nach Formentera? Fliegen Sie nach Ibiza, nehmen Sie die Fähre nach La Savina und entdecken Sie die besten Wege über die Insel."
 date: 2026-07-01
 category: "Anreise & Transport"
-image: /assets/images/gallery-pro/p07-landscape.webp
+image: /assets/images/blog/getting-there.webp
+image_credit: "Photo: carlos corzo / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

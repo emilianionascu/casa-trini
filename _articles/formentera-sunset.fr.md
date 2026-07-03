@@ -6,7 +6,7 @@ title: "Où voir le coucher de soleil à Formentera : les 5 meilleurs endroits"
 description: "Les meilleurs endroits pour voir le coucher de soleil à Formentera — de Cala Saona au phare de Cap de Barbaria — avec liens vers les cartes, horaires et accès depuis Casa Trini."
 date: 2026-07-01
 category: Plages et nature
-image: /assets/images/gallery-pro/pool-golden.webp
+image: /assets/images/blog/sunset.webp
 author: Casa Trini Formentera
 ---
 

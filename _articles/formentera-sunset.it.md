@@ -6,7 +6,7 @@ title: "Dove vedere il tramonto a Formentera: i 5 posti migliori"
 description: "I posti migliori per vedere il tramonto a Formentera — da Cala Saona al faro di Cap de Barbaria — con link alle mappe, orari e come arrivarci da Casa Trini."
 date: 2026-07-01
 category: Spiagge e natura
-image: /assets/images/gallery-pro/pool-golden.webp
+image: /assets/images/blog/sunset.webp
 author: Casa Trini Formentera
 ---
 

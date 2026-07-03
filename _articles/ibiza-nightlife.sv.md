@@ -6,7 +6,7 @@ title: "Ibizas klubbar: en utekväll från Formentera"
 description: "Så njuter du av Ibizas världsberömda nattliv på en utekväll från lugna Formentera, plus avslappnade strandbarer, färjetider och praktiska klubbtips."
 date: 2026-07-01
 category: "Nattliv"
-image: /assets/images/gallery-pro/p20-landscape.webp
+image: /assets/images/blog/nightlife.webp
 author: Casa Trini Formentera
 ---
 

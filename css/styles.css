@@ -408,6 +408,7 @@ body.nav-open { overflow: hidden; }
 .post-eyebrow { letter-spacing: .24em; text-transform: uppercase; font-size: .74rem; opacity: .9; margin: 0 0 .5rem; }
 .post-title { font-family: var(--serif); font-weight: 500; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.08; margin: 0 0 .8rem; max-width: 22ch; text-shadow: 0 2px 20px rgba(0,0,0,.4); }
 .post-meta { font-size: .9rem; opacity: .92; margin: 0; }
+.post-credit { font-size: .72rem; opacity: .7; margin: .5rem 0 0; }
 
 .post-body { max-width: 720px; margin: 3rem auto 2rem; font-size: 1.12rem; line-height: 1.85; }
 .post-body h2 { font-family: var(--serif); font-weight: 500; font-size: 1.9rem; margin: 2.4rem 0 .8rem; }

@@ -6,7 +6,8 @@ title: "Cucina tradizionale di Formentera: raó, peix sec e classici isolani"
 description: "Guida alla cucina tradizionale di Formentera e a quando gustarla: il raó d'autunno, il peix sec, il bullit de peix, il flaó e i liquori alle erbe."
 date: 2026-07-01
 category: "Cibo e vino"
-image: /assets/images/gallery-pro/house-pool.webp
+image: /assets/images/blog/food.webp
+image_credit: "Photo: Tamorlan / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 

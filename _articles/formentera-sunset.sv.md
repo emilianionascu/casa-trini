@@ -6,7 +6,7 @@ title: "Var man ser solnedgången på Formentera: de 5 bästa platserna"
 description: "De bästa platserna för solnedgång på Formentera — från Cala Saona till fyren Cap de Barbaria — med kartlänkar, bästa tider och hur du tar dig dit från Casa Trini."
 date: 2026-07-01
 category: Stränder och natur
-image: /assets/images/gallery-pro/pool-golden.webp
+image: /assets/images/blog/sunset.webp
 author: Casa Trini Formentera
 ---
 

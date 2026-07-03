@@ -6,7 +6,8 @@ title: "Traditionelle Küche Formenteras: Raó, Peix Sec und Inselklassiker"
 description: "Ein Führer zur traditionellen Küche Formenteras und wann man sie genießt: Raó im Herbst, Peix Sec, Bullit de Peix, Flaó und die Kräuterliköre der Insel."
 date: 2026-07-01
 category: "Essen & Trinken"
-image: /assets/images/gallery-pro/house-pool.webp
+image: /assets/images/blog/food.webp
+image_credit: "Photo: Tamorlan / Wikimedia Commons (CC BY-SA 3.0)"
 author: Casa Trini Formentera
 ---
 
