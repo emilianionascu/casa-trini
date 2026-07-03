@@ -9,7 +9,7 @@ const I18N = {
   en: {
     "meta.description": "Casa Trini Formentera — a rustic holiday home 500 m from the sea. Sleeps up to 8, with 4 en-suite bedrooms, a 16×6 m freshwater pool and a 6,500 m² private garden.",
     "nav.home": "Home", "nav.about": "The House", "nav.amenities": "Amenities",
-    "nav.location": "Location", "nav.gallery": "Gallery", "nav.reviews": "Reviews", "nav.contact": "Contact",
+    "nav.location": "Location", "nav.gallery": "Gallery", "nav.reviews": "Reviews", "nav.contact": "Contact", "nav.discover": "Discover Formentera",
     "hero.eyebrow": "Formentera · Balearic Islands",
     "hero.title": "Vive Formentera auténtica",
     "hero.sub": "A rustic island home, just 500 metres from the sea.",
@@ -63,7 +63,7 @@ const I18N = {
   es: {
     "meta.description": "Casa Trini Formentera — una casa rústica a 500 m del mar. Capacidad para 8 personas, con 4 dormitorios con baño, piscina de agua dulce de 16×6 m y jardín privado de 6.500 m².",
     "nav.home": "Inicio", "nav.about": "La Casa", "nav.amenities": "Servicios",
-    "nav.location": "Ubicación", "nav.gallery": "Fotos", "nav.reviews": "Reseñas", "nav.contact": "Contacto",
+    "nav.location": "Ubicación", "nav.gallery": "Fotos", "nav.reviews": "Reseñas", "nav.contact": "Contacto", "nav.discover": "Descubre Formentera",
     "hero.eyebrow": "Formentera · Islas Baleares",
     "hero.title": "Vive Formentera auténtica",
     "hero.sub": "Una casa rústica en la isla, a solo 500 metros del mar.",
@@ -117,7 +117,7 @@ const I18N = {
   de: {
     "meta.description": "Casa Trini Formentera — ein rustikales Ferienhaus, 500 m vom Meer entfernt. Platz für bis zu 8 Gäste, 4 Schlafzimmer mit eigenem Bad, ein 16×6 m Süßwasserpool und ein 6.500 m² großer Privatgarten.",
     "nav.home": "Start", "nav.about": "Das Haus", "nav.amenities": "Ausstattung",
-    "nav.location": "Lage", "nav.gallery": "Galerie", "nav.reviews": "Bewertungen", "nav.contact": "Kontakt",
+    "nav.location": "Lage", "nav.gallery": "Galerie", "nav.reviews": "Bewertungen", "nav.contact": "Kontakt", "nav.discover": "Formentera entdecken",
     "hero.eyebrow": "Formentera · Balearen",
     "hero.title": "Vive Formentera auténtica",
     "hero.sub": "Ein rustikales Inselhaus, nur 500 Meter vom Meer entfernt.",
@@ -171,7 +171,7 @@ const I18N = {
   it: {
     "meta.description": "Casa Trini Formentera — una casa rustica a 500 m dal mare. Ospita fino a 8 persone, con 4 camere con bagno privato, una piscina di acqua dolce 16×6 m e un giardino privato di 6.500 m².",
     "nav.home": "Home", "nav.about": "La Casa", "nav.amenities": "Servizi",
-    "nav.location": "Posizione", "nav.gallery": "Foto", "nav.reviews": "Recensioni", "nav.contact": "Contatti",
+    "nav.location": "Posizione", "nav.gallery": "Foto", "nav.reviews": "Recensioni", "nav.contact": "Contatti", "nav.discover": "Scopri Formentera",
     "hero.eyebrow": "Formentera · Isole Baleari",
     "hero.title": "Vive Formentera auténtica",
     "hero.sub": "Una casa rustica sull'isola, a soli 500 metri dal mare.",
@@ -225,7 +225,7 @@ const I18N = {
   fr: {
     "meta.description": "Casa Trini Formentera — une maison rustique à 500 m de la mer. Peut accueillir jusqu'à 8 personnes, avec 4 chambres avec salle de bain, une piscine d'eau douce de 16×6 m et un jardin privé de 6 500 m².",
     "nav.home": "Accueil", "nav.about": "La Maison", "nav.amenities": "Équipements",
-    "nav.location": "Emplacement", "nav.gallery": "Photos", "nav.reviews": "Avis", "nav.contact": "Contact",
+    "nav.location": "Emplacement", "nav.gallery": "Photos", "nav.reviews": "Avis", "nav.contact": "Contact", "nav.discover": "Découvrir Formentera",
     "hero.eyebrow": "Formentera · Îles Baléares",
     "hero.title": "Vive Formentera auténtica",
     "hero.sub": "Une maison rustique sur l'île, à seulement 500 mètres de la mer.",
@@ -279,7 +279,7 @@ const I18N = {
   sv: {
     "meta.description": "Casa Trini Formentera — ett rustikt semesterhus 500 m från havet. Plats för upp till 8 gäster, med 4 sovrum med eget badrum, en 16×6 m sötvattenpool och en 6 500 m² privat trädgård.",
     "nav.home": "Hem", "nav.about": "Huset", "nav.amenities": "Bekvämligheter",
-    "nav.location": "Läge", "nav.gallery": "Bilder", "nav.reviews": "Omdömen", "nav.contact": "Kontakt",
+    "nav.location": "Läge", "nav.gallery": "Bilder", "nav.reviews": "Omdömen", "nav.contact": "Kontakt", "nav.discover": "Upptäck Formentera",
     "hero.eyebrow": "Formentera · Balearerna",
     "hero.title": "Vive Formentera auténtica",
     "hero.sub": "Ett rustikt öhus, bara 500 meter från havet.",

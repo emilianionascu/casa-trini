@@ -1,0 +1,80 @@
+# Localized UI strings for the blog chrome (nav, labels, CTAs).
+# Keyed by language code. Article bodies live in _articles/.
+
+en:
+  section: Discover Formentera
+  tagline: Local stories, tips and traditions from the island.
+  nav_house: The House
+  nav_contact: Contact
+  back: All articles
+  published: Published
+  updated: Updated
+  cta_title: Come and see it for yourself
+  cta_text: Casa Trini sleeps up to 8, just 500 m from the sea.
+  cta_btn: Check availability
+  read: Read more
+
+es:
+  section: Descubre Formentera
+  tagline: Historias, consejos y tradiciones de la isla.
+  nav_house: La Casa
+  nav_contact: Contacto
+  back: Todos los artículos
+  published: Publicado
+  updated: Actualizado
+  cta_title: Ven a verlo por ti mismo
+  cta_text: Casa Trini aloja hasta 8 personas, a solo 500 m del mar.
+  cta_btn: Consultar disponibilidad
+  read: Leer más
+
+de:
+  section: Formentera entdecken
+  tagline: Geschichten, Tipps und Traditionen von der Insel.
+  nav_house: Das Haus
+  nav_contact: Kontakt
+  back: Alle Artikel
+  published: Veröffentlicht
+  updated: Aktualisiert
+  cta_title: Überzeugen Sie sich selbst
+  cta_text: Casa Trini bietet Platz für bis zu 8 Gäste, nur 500 m vom Meer.
+  cta_btn: Verfügbarkeit prüfen
+  read: Weiterlesen
+
+it:
+  section: Scopri Formentera
+  tagline: Storie, consigli e tradizioni dell'isola.
+  nav_house: La Casa
+  nav_contact: Contatti
+  back: Tutti gli articoli
+  published: Pubblicato
+  updated: Aggiornato
+  cta_title: Vieni a vederlo di persona
+  cta_text: Casa Trini ospita fino a 8 persone, a soli 500 m dal mare.
+  cta_btn: Verifica disponibilità
+  read: Leggi di più
+
+fr:
+  section: Découvrir Formentera
+  tagline: Histoires, conseils et traditions de l'île.
+  nav_house: La Maison
+  nav_contact: Contact
+  back: Tous les articles
+  published: Publié
+  updated: Mis à jour
+  cta_title: Venez le voir par vous-même
+  cta_text: Casa Trini accueille jusqu'à 8 personnes, à 500 m de la mer.
+  cta_btn: Vérifier les disponibilités
+  read: Lire la suite
+
+sv:
+  section: Upptäck Formentera
+  tagline: Berättelser, tips och traditioner från ön.
+  nav_house: Huset
+  nav_contact: Kontakt
+  back: Alla artiklar
+  published: Publicerad
+  updated: Uppdaterad
+  cta_title: Kom och se det själv
+  cta_text: Casa Trini har plats för upp till 8 gäster, bara 500 m från havet.
+  cta_btn: Kolla tillgänglighet
+  read: Läs mer

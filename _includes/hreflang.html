@@ -1,0 +1,13 @@
+{%- comment -%}
+Emit <link rel="alternate" hreflang> for every translation of this article
+(all files sharing the same `ref`), plus an x-default pointing at English.
+This is what lets search engines serve the right language per searcher.
+{%- endcomment -%}
+{%- if page.ref -%}
+{%- assign translations = site.articles | where: "ref", page.ref -%}
+{%- for t in translations -%}
+<link rel="alternate" hreflang="{{ t.lang }}" href="{{ t.url | absolute_url }}" />
+{% endfor -%}
+{%- assign en_version = translations | where: "lang", "en" | first -%}
+{%- if en_version -%}<link rel="alternate" hreflang="x-default" href="{{ en_version.url | absolute_url }}" />{%- endif -%}
+{%- endif -%}

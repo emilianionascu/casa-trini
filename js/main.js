@@ -62,6 +62,9 @@ function applyLang(lang) {
   $("#langCurrent").textContent = LANG_LABEL[lang];
   $$("#langMenu button").forEach(b => b.classList.toggle("active", b.dataset.lang === lang));
   localStorage.setItem("ct_lang", lang);
+  // Point the "Discover Formentera" link at the reader's language index.
+  const disc = document.getElementById("navDiscover");
+  if (disc) disc.setAttribute("href", "blog/" + (lang === "en" ? "" : lang + "/"));
   if (window.refreshDynamic) window.refreshDynamic();  // re-render JS-set text (nights, guests)
 }
 

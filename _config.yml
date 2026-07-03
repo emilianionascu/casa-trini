@@ -1,0 +1,52 @@
+# Jekyll configuration — powers the "Discover Formentera" blog.
+#
+# The rest of the site (index.html, thanks.html, css/, js/, assets/) has NO
+# front matter, so Jekyll copies it through untouched — the marketing site is
+# unaffected. Only files with front matter (the blog) are rendered.
+
+title: Casa Trini Formentera
+description: A rustic holiday home on Formentera, 500 m from the sea.
+author: Casa Trini Formentera
+
+# --- Domain -----------------------------------------------------------------
+# The site is currently served at https://emilianionascu.github.io/casa-trini/.
+# WHEN THE CUSTOM DOMAIN GOES LIVE, change these two lines to:
+#     url: "https://casatriniformentera.com"
+#     baseurl: ""
+# (nothing else needs to change — all blog links use these values).
+url: "https://emilianionascu.github.io"
+baseurl: "/casa-trini"
+
+# --- Blog content -----------------------------------------------------------
+# Each article is one Markdown file per language, e.g.
+#     _articles/formentera-sunset.en.md   (lang: en, ref: formentera-sunset)
+#     _articles/formentera-sunset.es.md   (lang: es, ref: formentera-sunset)
+# Files sharing a `ref` are treated as translations of each other (hreflang).
+collections:
+  articles:
+    output: true
+
+defaults:
+  - scope: { path: "", type: "articles" }
+    values:
+      layout: post
+      seo:
+        type: BlogPosting
+
+# --- SEO & sitemap (GitHub Pages built-in, approved plugins) -----------------
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Default site language (used by <html lang> fallbacks)
+lang: en
+
+# Keep tooling / build artefacts out of the published site
+exclude:
+  - README.md
+  - scripts
+  - "*.ps1"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .playwright-mcp

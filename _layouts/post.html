@@ -1,0 +1,99 @@
+---
+---
+{%- assign L = page.lang | default: "en" -%}
+{%- assign t = site.data.ui[L] -%}
+<!DOCTYPE html>
+<html lang="{{ L }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {%- comment -%} jekyll-seo-tag builds title, description, canonical, Open Graph,
+  Twitter cards and JSON-LD BlogPosting from this page's front matter. {%- endcomment -%}
+  {% seo %}
+  {% include hreflang.html %}
+  <meta name="theme-color" content="#c26a48" />
+  <link rel="icon" href="{{ '/assets/images/logo.png' | relative_url }}" />
+  <link rel="apple-touch-icon" href="{{ '/assets/images/logo.png' | relative_url }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}" />
+</head>
+<body class="blog-body">
+
+  <header class="site-header is-solid">
+    <div class="container nav-inner">
+      <a href="{{ '/' | relative_url }}" class="brand" aria-label="Casa Trini Formentera — home">
+        <span class="brand-name">Casa Trini</span>
+        <span class="brand-sub">Formentera</span>
+      </a>
+      <nav class="nav">
+        <a href="{{ '/blog/' | relative_url }}{% if L != 'en' %}{{ L }}/{% endif %}">{{ t.section }}</a>
+        <a href="{{ '/' | relative_url }}#about">{{ t.nav_house }}</a>
+        <a href="{{ '/' | relative_url }}#contact">{{ t.nav_contact }}</a>
+        {%- if page.ref -%}
+        {%- assign translations = site.articles | where: "ref", page.ref | sort: "lang" -%}
+        <div class="lang-switch">
+          <button class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false">
+            <span>{{ L | upcase }}</span> <span class="chevron">▾</span>
+          </button>
+          <ul class="lang-menu" id="langMenu" role="menu">
+            {%- for tr in translations -%}
+            <li><a href="{{ tr.url | relative_url }}" role="menuitem"{% if tr.lang == L %} aria-current="true"{% endif %}>{{ tr.lang | upcase }}</a></li>
+            {%- endfor -%}
+          </ul>
+        </div>
+        {%- endif -%}
+      </nav>
+    </div>
+  </header>
+
+  <article class="post">
+    <header class="post-hero"{% if page.image %} style="background-image:url('{{ page.image | relative_url }}')"{% endif %}>
+      <div class="post-hero-overlay"></div>
+      <div class="container post-hero-inner">
+        {%- if page.category %}<p class="post-eyebrow">{{ page.category }}</p>{% endif -%}
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ t.published }} {{ page.date | date: "%-d %B %Y" }}</time>
+        </p>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="post-body">
+        {{ content }}
+      </div>
+
+      <section class="post-cta">
+        <h2>{{ t.cta_title }}</h2>
+        <p>{{ t.cta_text }}</p>
+        <a class="btn btn-primary" href="{{ '/' | relative_url }}#contact">{{ t.cta_btn }}</a>
+        <p class="post-back"><a href="{{ '/blog/' | relative_url }}{% if L != 'en' %}{{ L }}/{% endif %}">← {{ t.back }}</a></p>
+      </section>
+    </div>
+  </article>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-brand">Casa Trini <span>Formentera</span></p>
+      <p class="footer-note">Vive Formentera auténtica</p>
+    </div>
+  </footer>
+
+  <script>
+    // Minimal language dropdown toggle (self-contained; the marketing site's
+    // main.js is intentionally not loaded on article pages).
+    (function () {
+      var b = document.getElementById('langBtn'), m = document.getElementById('langMenu');
+      if (!b || !m) return;
+      b.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var open = m.classList.toggle('open');
+        b.setAttribute('aria-expanded', open);
+      });
+      document.addEventListener('click', function () { m.classList.remove('open'); b.setAttribute('aria-expanded', false); });
+    })();
+  </script>
+</body>
+</html>

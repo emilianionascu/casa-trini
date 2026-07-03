@@ -1,0 +1,91 @@
+---
+---
+{%- assign L = page.lang | default: "en" -%}
+{%- assign t = site.data.ui[L] -%}
+<!DOCTYPE html>
+<html lang="{{ L }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {% seo %}
+  {%- comment -%} hreflang between the per-language index pages {%- endcomment -%}
+  {%- assign langs = "en,es,de,it,fr,sv" | split: "," -%}
+  {%- for l in langs -%}
+    {%- if l == "en" -%}<link rel="alternate" hreflang="en" href="{{ '/blog/' | absolute_url }}" />
+    {%- else -%}<link rel="alternate" hreflang="{{ l }}" href="{{ '/blog/' | append: l | append: '/' | absolute_url }}" />{%- endif -%}
+  {% endfor -%}
+  <link rel="alternate" hreflang="x-default" href="{{ '/blog/' | absolute_url }}" />
+  <meta name="theme-color" content="#c26a48" />
+  <link rel="icon" href="{{ '/assets/images/logo.png' | relative_url }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}" />
+</head>
+<body class="blog-body">
+
+  <header class="site-header is-solid">
+    <div class="container nav-inner">
+      <a href="{{ '/' | relative_url }}" class="brand" aria-label="Casa Trini Formentera — home">
+        <span class="brand-name">Casa Trini</span>
+        <span class="brand-sub">Formentera</span>
+      </a>
+      <nav class="nav">
+        <a href="{{ '/' | relative_url }}#about">{{ t.nav_house }}</a>
+        <a href="{{ '/' | relative_url }}#contact">{{ t.nav_contact }}</a>
+        <div class="lang-switch">
+          <button class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false">
+            <span>{{ L | upcase }}</span> <span class="chevron">▾</span>
+          </button>
+          <ul class="lang-menu" id="langMenu" role="menu">
+            {%- for l in langs -%}
+            <li><a href="{% if l == 'en' %}{{ '/blog/' | relative_url }}{% else %}{{ '/blog/' | append: l | append: '/' | relative_url }}{% endif %}" role="menuitem"{% if l == L %} aria-current="true"{% endif %}>{{ l | upcase }}</a></li>
+            {%- endfor -%}
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="blog-index">
+    <div class="container">
+      <header class="blog-head">
+        <p class="eyebrow">{{ t.section }}</p>
+        <h1>{{ t.section }}</h1>
+        <p class="blog-tagline">{{ t.tagline }}</p>
+      </header>
+
+      {%- assign posts = site.articles | where: "lang", L | sort: "date" | reverse -%}
+      <div class="blog-grid">
+        {%- for post in posts -%}
+        <a class="blog-card" href="{{ post.url | relative_url }}">
+          {%- if post.image %}<div class="blog-card-img" style="background-image:url('{{ post.image | relative_url }}')"></div>{% endif -%}
+          <div class="blog-card-body">
+            {%- if post.category %}<p class="blog-card-cat">{{ post.category }}</p>{% endif -%}
+            <h2>{{ post.title }}</h2>
+            {%- if post.description %}<p class="blog-card-excerpt">{{ post.description }}</p>{% endif -%}
+            <span class="blog-card-more">{{ t.read }} →</span>
+          </div>
+        </a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-brand">Casa Trini <span>Formentera</span></p>
+      <p class="footer-note">Vive Formentera auténtica</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var b = document.getElementById('langBtn'), m = document.getElementById('langMenu');
+      if (!b || !m) return;
+      b.addEventListener('click', function (e) { e.stopPropagation(); var o = m.classList.toggle('open'); b.setAttribute('aria-expanded', o); });
+      document.addEventListener('click', function () { m.classList.remove('open'); });
+    })();
+  </script>
+</body>
+</html>

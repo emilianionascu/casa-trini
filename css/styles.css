@@ -366,3 +366,67 @@ a  { color: inherit; text-decoration: none; }
 
 /* Body scroll lock when mobile menu open */
 body.nav-open { overflow: hidden; }
+
+/* ===================================================================
+   Blog — "Discover Formentera"
+   =================================================================== */
+/* Solid header for pages without a hero image behind it */
+.site-header.is-solid { background: rgba(250,247,241,.97); box-shadow: 0 2px 20px rgba(0,0,0,.07); backdrop-filter: blur(8px); }
+.site-header.is-solid .brand { text-shadow: none; }
+.site-header.is-solid .brand-name { color: var(--ink); }
+.site-header.is-solid .brand-sub { color: var(--terracotta); }
+.site-header.is-solid .nav > a { color: var(--ink); }
+.site-header.is-solid .lang-btn { color: var(--ink); border-color: var(--line); background: transparent; }
+
+/* Language menu supports <a> items (blog) as well as <button> (main site) */
+.lang-menu a { display: block; text-decoration: none; padding: .5rem .7rem; border-radius: 6px; font-family: var(--sans); font-size: .9rem; color: var(--ink); }
+.lang-menu a:hover, .lang-menu a[aria-current="true"] { background: var(--bg-alt); color: var(--terracotta); }
+
+.blog-body { padding-top: 76px; }
+
+/* Index */
+.blog-index { padding: 3rem 0 5rem; }
+.blog-head { text-align: center; max-width: 720px; margin: 1.5rem auto 3rem; }
+.blog-head .eyebrow { color: var(--terracotta); letter-spacing: .28em; text-transform: uppercase; font-size: .72rem; }
+.blog-head h1 { font-family: var(--serif); font-size: clamp(2.2rem, 5vw, 3.2rem); font-weight: 500; margin: .4rem 0 .6rem; }
+.blog-tagline { color: var(--muted); font-size: 1.1rem; }
+
+.blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.8rem; }
+.blog-card { display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: inherit; box-shadow: 0 6px 24px rgba(52,40,24,.06); transition: transform .3s ease, box-shadow .3s ease; }
+.blog-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.blog-card-img { aspect-ratio: 3 / 2; background-size: cover; background-position: center; filter: var(--photo-filter); }
+.blog-card-body { padding: 1.5rem 1.6rem 1.7rem; display: flex; flex-direction: column; flex: 1; }
+.blog-card-cat { color: var(--terracotta); font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; margin: 0 0 .5rem; }
+.blog-card h2 { font-family: var(--serif); font-weight: 500; font-size: 1.5rem; line-height: 1.2; margin: 0 0 .6rem; }
+.blog-card-excerpt { color: var(--muted); font-size: .96rem; margin: 0 0 1.2rem; flex: 1; }
+.blog-card-more { color: var(--terracotta); font-size: .9rem; letter-spacing: .03em; }
+
+/* Single article */
+.post-hero { position: relative; min-height: 52vh; display: flex; align-items: flex-end; background: var(--stone) center/cover no-repeat; }
+.post-hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(30,24,16,.74), rgba(30,24,16,.12) 55%, rgba(30,24,16,.28)); }
+.post-hero-inner { position: relative; padding: 3rem 24px; color: #fff; }
+.post-eyebrow { letter-spacing: .24em; text-transform: uppercase; font-size: .74rem; opacity: .9; margin: 0 0 .5rem; }
+.post-title { font-family: var(--serif); font-weight: 500; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.08; margin: 0 0 .8rem; max-width: 22ch; text-shadow: 0 2px 20px rgba(0,0,0,.4); }
+.post-meta { font-size: .9rem; opacity: .92; margin: 0; }
+
+.post-body { max-width: 720px; margin: 3rem auto 2rem; font-size: 1.12rem; line-height: 1.85; }
+.post-body h2 { font-family: var(--serif); font-weight: 500; font-size: 1.9rem; margin: 2.4rem 0 .8rem; }
+.post-body h3 { font-family: var(--serif); font-weight: 500; font-size: 1.4rem; margin: 2rem 0 .6rem; }
+.post-body p { margin: 0 0 1.3rem; }
+.post-body ul { margin: 0 0 1.3rem; padding-left: 1.3rem; }
+.post-body li { margin-bottom: .5rem; }
+.post-body a { color: var(--terracotta); }
+.post-body strong { font-weight: 500; color: var(--ink); }
+
+.post-cta { max-width: 720px; margin: 2rem auto 4rem; text-align: center; background: var(--bg-alt); border: 1px solid var(--line); border-radius: var(--radius); padding: 2.4rem 2rem; }
+.post-cta h2 { font-family: var(--serif); font-weight: 500; font-size: 1.8rem; margin: 0 0 .5rem; }
+.post-cta > p { color: var(--muted); margin: 0 0 1.4rem; }
+.post-back { margin: 1.6rem 0 0; }
+.post-back a { color: var(--muted); text-decoration: none; font-size: .92rem; }
+.post-back a:hover { color: var(--terracotta); }
+
+/* Footer (blog pages) */
+.site-footer { background: var(--ink); color: #d8cfc0; padding: 2.6rem 0; text-align: center; }
+.footer-brand { font-family: var(--serif); font-size: 1.5rem; color: #fff; margin: 0 0 .2rem; }
+.footer-brand span { color: var(--terracotta); }
+.footer-note { font-style: italic; color: #a89e8f; margin: 0; font-family: var(--serif); }
