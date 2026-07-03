@@ -359,7 +359,7 @@ const GALLERY = [
   { src: GP + "house-arch.webp",    w: 1400, h: 934 },
   { src: GP + "p35-landscape.webp", w: 1400, h: 934 },
   { src: GP + "p32-landscape.webp", w: 1400, h: 934 },
-  { src: GP + "house-pool.webp",    w: 1400, h: 934 },
+  { src: GP + "house-pool.webp",    w: 1200, h: 800 },
   { src: GP + "p03-landscape.webp", w: 1400, h: 934 },
   { src: GP + "p37-landscape.webp", w: 1400, h: 948 },
   { src: GP + "p14-landscape.webp", w: 1400, h: 934 },
