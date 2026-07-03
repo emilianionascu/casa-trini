@@ -4,6 +4,12 @@ A static, multilingual marketing & booking site for **Casa Trini Formentera**, a
 
 Modelled on the original https://casatriniformentera.com/, expanded with 6 languages, a full gallery with lightbox, an amenities section, a map, and an inquiry form + booking links.
 
+**Live site:** hosted on GitHub Pages from the `main` branch of
+[emilianionascu/casa-trini](https://github.com/emilianionascu/casa-trini) →
+https://emilianionascu.github.io/casa-trini/ (also served at
+http://emilian.ionascu.me/casa-trini/). To update the live site, commit and push
+to `main`; Pages rebuilds automatically in ~1 minute.
+
 ## Structure
 
 ```
