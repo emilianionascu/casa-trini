@@ -430,3 +430,18 @@ body.nav-open { overflow: hidden; }
 .footer-brand { font-family: var(--serif); font-size: 1.5rem; color: #fff; margin: 0 0 .2rem; }
 .footer-brand span { color: var(--terracotta); }
 .footer-note { font-style: italic; color: #a89e8f; margin: 0; font-family: var(--serif); }
+
+/* "Discover Formentera" — subtle standout nav link (terracotta + compass icon).
+   Terracotta in every header state so it reads as the one "explore" link. */
+.nav > a.nav-discover { display: inline-flex; align-items: center; gap: .4em; font-weight: 500; }
+/* Over the hero photo: brighter terracotta + shadow so it reads on any image */
+.nav > a.nav-discover { color: #e08a5f; text-shadow: 0 1px 8px rgba(0,0,0,.55); }
+/* On the solid/scrolled light header: darker terracotta for strong contrast */
+.site-header.scrolled .nav > a.nav-discover,
+.site-header.is-solid .nav > a.nav-discover { color: var(--terracotta-dk); text-shadow: none; }
+.nav > a.nav-discover::before {
+  content: ""; width: .95em; height: .95em; flex: none; background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2.5 13.7 10.3 21.5 12 13.7 13.7 12 21.5 10.3 13.7 2.5 12 10.3 10.3 Z'/%3E%3C/svg%3E") center/contain no-repeat;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2.5 13.7 10.3 21.5 12 13.7 13.7 12 21.5 10.3 13.7 2.5 12 10.3 10.3 Z'/%3E%3C/svg%3E") center/contain no-repeat;
+}
+.nav > a.nav-discover::after { background: var(--terracotta); }
