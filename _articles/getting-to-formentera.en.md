@@ -17,6 +17,11 @@ Formentera is the smallest of Spain's inhabited Balearic Islands, and reaching i
 
 Formentera has no airport of its own, so every journey begins in the air above its larger neighbour. You fly into **[Ibiza Airport](https://www.google.com/maps/search/?api=1&query=Ibiza+Airport+Ibiza)** (IBZ), which is served by direct flights from across Spain and much of Europe, especially in the summer season. From there, the only way onward is by sea, so plan for a two-leg trip: plane, then boat.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/getting-there-2.webp' | relative_url }}" alt="A small electric rental vehicle, a popular way to get around Formentera" loading="lazy" />
+</figure>
+
 ## From the Airport to the Ferry Port
 
 Once you land, you need to reach **[Ibiza town](https://www.google.com/maps/search/?api=1&query=Ibiza+town+Eivissa+Ibiza)** (Eivissa), where the ferries to Formentera depart. The quickest option is a taxi, which takes roughly 20 minutes to the port. Alternatively, the airport bus (línea 10 / airbus) connects the terminal with the town centre; from the stop it is a short walk to the ferry terminal. Both are reliable, though taxis are far easier if you are travelling with luggage.

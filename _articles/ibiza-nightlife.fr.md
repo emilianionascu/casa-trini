@@ -22,6 +22,11 @@ Dans la ville d'Ibiza, le légendaire **[Pacha](https://www.google.com/maps/sear
 
 Avant l'ouverture des clubs, échauffez-vous dans les bars de la marina d'Ibiza, ou filez sur la promenade des couchers de soleil de San Antonio, où le **[Café del Mar](https://www.google.com/maps/search/?api=1&query=Cafe+del+Mar+Ibiza)** et le **[Café Mambo](https://www.google.com/maps/search/?api=1&query=Cafe+Mambo+Ibiza)** servent des cocktails sur fond de chill-out pendant que le soleil descend.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/nightlife-2.webp' | relative_url }}" alt="A crowd enjoying a live music night" loading="lazy" />
+</figure>
+
 ## L'aller et le retour
 
 En été, les ferries relient fréquemment **[La Savina](https://www.google.com/maps/search/?api=1&query=La+Savina+Formentera)** et Ibiza, et en haute saison quelques traversées sont tardives. Mais les clubs tournent jusqu'à l'aube : le retour est donc la partie à planifier soigneusement. Vérifiez toujours l'horaire des ferries en vigueur et, surtout, le dernier bateau du retour.

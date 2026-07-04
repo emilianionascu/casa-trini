@@ -1,0 +1,70 @@
+# Sveltia CMS configuration for the "Discover Formentera" blog.
+# Docs: https://github.com/sveltia/sveltia-cms
+#
+# ── ONE-TIME SETUP (needed for the GitHub login to work) ─────────────────────
+# Editing requires signing in with GitHub. On GitHub Pages that needs a tiny
+# free OAuth relay. Steps (details in README.md → "Editing posts (/admin)"):
+#   1. Deploy the "sveltia-cms-auth" Cloudflare Worker (free, 2-min one-click).
+#   2. Create a GitHub OAuth App; put the Worker's URL as its callback.
+#   3. Put your Worker URL in `backend.base_url` below (replace the placeholder).
+# Until that's done, /admin loads but the "Sign in with GitHub" button won't work.
+# ─────────────────────────────────────────────────────────────────────────────
+
+backend:
+  name: github
+  repo: emilianionascu/casa-trini
+  branch: main
+  base_url: https://REPLACE-WITH-YOUR-WORKER.workers.dev   # <-- OAuth relay URL
+
+# Commit straight to main; the site rebuilds via GitHub Actions (~1 min).
+# (No pull-request workflow, so posts go live as soon as you save.)
+
+# Uploaded images land here and are referenced as /assets/images/blog/<file>.
+media_folder: "assets/images/blog"
+public_folder: "/assets/images/blog"
+
+site_url: https://emilianionascu.github.io/casa-trini/
+display_url: https://emilianionascu.github.io/casa-trini/
+
+collections:
+  - name: articles
+    label: "Discover Formentera — Articles"
+    label_singular: "Article"
+    description: >
+      One entry per language. To translate an article, create another entry with
+      the SAME "Article key" and the matching language. Filenames are generated
+      automatically as <article-key>.<language>.md.
+    folder: "_articles"
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{fields.ref}}.{{fields.lang}}"
+    identifier_field: title
+    summary: "{{fields.title}}  ·  {{fields.lang}}"
+    sortable_fields: [ref, lang, date]
+    view_groups:
+      - label: "By article"
+        field: ref
+    fields:
+      - { name: title, label: "Title", widget: string,
+          hint: "Shown as the page heading and the SEO <title>." }
+      - { name: description, label: "Meta description (SEO)", widget: text,
+          hint: "~120–160 characters. This is the snippet Google shows in search results." }
+      - { name: lang, label: "Language", widget: select,
+          options: [ { label: "English", value: en }, { label: "Español", value: es },
+                     { label: "Deutsch", value: de }, { label: "Italiano", value: it },
+                     { label: "Français", value: fr }, { label: "Svenska", value: sv } ] }
+      - { name: ref, label: "Article key (same for every language)", widget: string,
+          hint: "e.g. formentera-sunset — use the IDENTICAL value on all 6 language versions so they link together." }
+      - { name: permalink, label: "URL path", widget: string,
+          hint: "Must start with /blog/<language>/ … e.g. /blog/en/where-to-watch-the-sunset/  (end with a slash)." }
+      - { name: category, label: "Category", widget: string,
+          hint: "e.g. Beaches & Nature, Food & Drink — a short label shown above the title." }
+      - { name: date, label: "Date", widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { name: image, label: "Cover image", widget: image, required: false, choose_url: false,
+          hint: "Drag & drop a photo; it uploads automatically." }
+      - { name: image_credit, label: "Cover photo credit (optional)", widget: string, required: false,
+          hint: "Only needed if the photo requires attribution, e.g. 'Photo: Name / Wikimedia Commons (CC BY-SA 3.0)'." }
+      - { name: author, label: "Author", widget: hidden, default: "Casa Trini Formentera" }
+      - { name: body, label: "Body", widget: markdown,
+          hint: "Write the article. Use the image button to insert photos into the text. Link places to Google Maps." }

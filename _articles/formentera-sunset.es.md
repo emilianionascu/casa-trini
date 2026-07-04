@@ -16,6 +16,11 @@ Formentera mira al oeste, y ese simple detalle convierte casi cada tarde en un a
 
 El lugar más próximo a la casa, **[Cala Saona](https://www.google.com/maps/search/?api=1&query=Cala+Saona+Formentera)** es una cala resguardada de arena clara enmarcada por acantilados rojizos y pinos. La bahía se abre al oeste, así que el sol se pone justo en el centro. Llega pronto, pide algo en uno de los dos restaurantes de playa y acomódate. Está a 10 minutos en coche de Casa Trini.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/sunset-2.webp' | relative_url }}" alt="A colourful sunset over the sea" loading="lazy" />
+</figure>
+
 ## 2. El faro de Cap de Barbaria
 
 En el extremo sur de la isla, la carretera termina en el **[Faro de Cap de Barbaria](https://www.google.com/maps/search/?api=1&query=Faro+de+Cap+de+Barbaria+Formentera)**, un faro blanco solitario sobre un cabo salvaje y sin árboles. Es la puesta de sol más cinematográfica de Formentera: lleva calzado cómodo para el camino de piedras y quédate para el resplandor final. Ve 45 minutos antes.

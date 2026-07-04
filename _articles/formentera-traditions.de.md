@@ -17,6 +17,12 @@ Jenseits von türkisem Wasser und stillen Buchten bewahrt Formentera eine ländl
 
 Das traditionelle Haus Formenteras, die Finca, ist eine kubistische Komposition aus blendend weißen Mauern, dick genug, um die Sommerhitze abzuhalten, gekrönt von einem Flachdach, das einst Regenwasser sammelte. Kilometerlange Trockenmauern durchziehen die Felder, und an der Küste stehen noch immer die Wehrtürme, vor Jahrhunderten errichtet, um vor Piratenüberfällen zu warnen. Casa Trini gehört genau zu dieser Tradition, und ein Aufenthalt darin ist Teil des Erlebnisses.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/traditions-2.webp' | relative_url }}" alt="The salt flats of Ses Salines, Formentera" loading="lazy" />
+  <figcaption>Ses Salines de Formentera — Photo: Zavijavah / Wikimedia Commons (CC BY-SA 3.0)</figcaption>
+</figure>
+
 ## Ein Leben nah an der Erde
 
 Die Landschaft Formenteras erzählt ihre eigene Geschichte. Uralte Feigenbäume breiten sich auf Holzstützen aus, ihre Äste zu weiten grünen Schirmen erzogen, die den Boden beschatten. Mandelbäume blühen im Spätwinter, und duftende Sabina-Wälder (vom Wind geformter Wacholder) reichen bis an die Dünen. Jahrhundertelang lebte die Insel vom Meersalz, das in den Salinen von **[Ses Salines](https://www.google.com/maps/search/?api=1&query=Ses+Salines+Formentera)** gewonnen wurde, deren schimmernde Becken noch heute Flamingos und Fotografen anziehen.

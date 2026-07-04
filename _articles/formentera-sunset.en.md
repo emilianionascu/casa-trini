@@ -16,6 +16,11 @@ Formentera faces west, and that single fact turns almost every evening into an e
 
 The nearest sunset spot to the house, **[Cala Saona](https://www.google.com/maps/search/?api=1&query=Cala+Saona+Formentera)** is a sheltered cove of pale sand framed by red cliffs and pines. The bay opens to the west, so the sun sets straight down the middle of it. Arrive early, order a drink at one of the two beach restaurants, and settle in. It's a 10-minute drive from Casa Trini.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/sunset-2.webp' | relative_url }}" alt="A colourful sunset over the sea" loading="lazy" />
+</figure>
+
 ## 2. Cap de Barbaria lighthouse
 
 At the island's southern tip, the road runs out at the **[Faro de Cap de Barbaria](https://www.google.com/maps/search/?api=1&query=Faro+de+Cap+de+Barbaria+Formentera)**, a lone white lighthouse on a wild, treeless headland. It's the most cinematic sunset on Formentera — bring shoes for the rocky path and stay for the afterglow. Go 45 minutes before sunset to find a spot.

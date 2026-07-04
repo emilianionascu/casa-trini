@@ -17,6 +17,12 @@ Más allá del agua turquesa y las calas tranquilas, Formentera guarda un alma r
 
 La casa tradicional de Formentera, la finca, es una composición cubista de muros de un blanco cegador, lo bastante gruesos para frenar el calor del verano, coronada por una azotea plana que antaño recogía el agua de lluvia. Los campos se entrelazan mediante kilómetros de muros de piedra seca, y en la costa aún se alzan las torres de defensa, levantadas hace siglos para avisar de los ataques piratas. Casa Trini pertenece justamente a esta tradición, y alojarse en ella forma parte de la experiencia.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/traditions-2.webp' | relative_url }}" alt="The salt flats of Ses Salines, Formentera" loading="lazy" />
+  <figcaption>Ses Salines de Formentera — Photo: Zavijavah / Wikimedia Commons (CC BY-SA 3.0)</figcaption>
+</figure>
+
 ## La vida junto a la tierra
 
 El campo de Formentera cuenta su propia historia. Las higueras centenarias se abren sobre puntales de madera, con las ramas guiadas en amplias sombrillas verdes que dan sombra al suelo. Los almendros florecen a finales del invierno y los perfumados sabinares (enebros esculpidos por el viento) descienden hasta las dunas. Durante siglos la isla vivió de la sal marina recogida en las salinas de **[Ses Salines](https://www.google.com/maps/search/?api=1&query=Ses+Salines+Formentera)**, cuyas balsas relucientes aún atraen a flamencos y fotógrafos.

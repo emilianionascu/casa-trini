@@ -17,6 +17,12 @@ Bortom det turkosa vattnet och de stilla vikarna bär Formentera på en lantlig 
 
 Formenteras traditionella hus, finca, är en kubistisk komposition av bländvita murar, tjocka nog att hålla sommarhettan borta, krönt av ett platt tak som förr samlade regnvatten. Fälten binds samman av milslånga torrmurar, och längs kusten står ännu försvarstornen kvar, resta för sekler sedan för att varna för piratanfall. Casa Trini hör just till denna tradition, och att bo där är en del av upplevelsen.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/traditions-2.webp' | relative_url }}" alt="The salt flats of Ses Salines, Formentera" loading="lazy" />
+  <figcaption>Ses Salines de Formentera — Photo: Zavijavah / Wikimedia Commons (CC BY-SA 3.0)</figcaption>
+</figure>
+
 ## Ett liv nära jorden
 
 Formenteras landsbygd berättar sin egen historia. Uråldriga fikonträd breder ut sig på trästöttor, med grenarna ledda till breda gröna parasoll som skuggar marken. Mandelträden blommar i senvintern, och doftande sabinaskogar (en vindformad en) löper ända ner till dynerna. I sekler levde ön på havssaltet som skördades i saltverket **[Ses Salines](https://www.google.com/maps/search/?api=1&query=Ses+Salines+Formentera)**, vars skimrande dammar än i dag lockar både flamingos och fotografer.

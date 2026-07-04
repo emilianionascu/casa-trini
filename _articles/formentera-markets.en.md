@@ -19,6 +19,11 @@ The undisputed star is the artisan market at **[El Pilar de la Mola](https://www
 
 Here you will find stalls of handmade leather goods, silver jewellery, textiles and quirky art, often sold by the makers themselves. Live music drifts through the square as the light softens, and the atmosphere is unhurried and warmly nostalgic. Do check the current days and times before you set off, as the season shapes the schedule.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/markets-2.webp' | relative_url }}" alt="Handmade pottery, typical of the islands artisan markets" loading="lazy" />
+</figure>
+
 ## Sant Francesc Xavier: crafts in the capital
 
 The island's small whitewashed capital, **[Sant Francesc Xavier](https://www.google.com/maps/search/?api=1&query=Sant+Francesc+Xavier+Formentera)**, is a lovely place to shop for local crafts, ceramics and produce. Around the church square and the surrounding lanes you will find a craft and artisan market alongside independent boutiques and delis.

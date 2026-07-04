@@ -22,6 +22,11 @@ I Platja d'en Bossa står två giganter under bar himmel mitt emot varandra: **[
 
 Innan klubbarna öppnar värmer du bäst upp i marinabaren i Ibiza stad, eller styr mot solnedgångsstråket i San Antonio, där **[Café del Mar](https://www.google.com/maps/search/?api=1&query=Cafe+del+Mar+Ibiza)** och **[Café Mambo](https://www.google.com/maps/search/?api=1&query=Cafe+Mambo+Ibiza)** serverar cocktails till chill-out-musik medan solen sjunker.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/nightlife-2.webp' | relative_url }}" alt="A crowd enjoying a live music night" loading="lazy" />
+</figure>
+
 ## Ta dig dit och hem
 
 På sommaren går färjorna ofta mellan **[La Savina](https://www.google.com/maps/search/?api=1&query=La+Savina+Formentera)** och Ibiza, och under högsäsongen går några turer sent. Men klubbarna håller på till gryningen, så hemresan är det du behöver planera noga. Kontrollera alltid den aktuella färjetidtabellen och framför allt sista båten hem.

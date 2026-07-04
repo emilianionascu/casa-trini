@@ -418,6 +418,9 @@ body.nav-open { overflow: hidden; }
 .post-body li { margin-bottom: .5rem; }
 .post-body a { color: var(--terracotta); }
 .post-body strong { font-weight: 500; color: var(--ink); }
+.post-body .post-fig { margin: 2.2rem 0 1rem; }
+.post-body .post-fig img { display: block; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 8px 26px rgba(52,40,24,.10); }
+.post-body .post-fig figcaption { font-size: .78rem; color: var(--muted); font-style: italic; text-align: center; margin-top: .55rem; }
 
 .post-cta { max-width: 720px; margin: 2rem auto 4rem; text-align: center; background: var(--bg-alt); border: 1px solid var(--line); border-radius: var(--radius); padding: 2.4rem 2rem; }
 .post-cta h2 { font-family: var(--serif); font-weight: 500; font-size: 1.8rem; margin: 0 0 .5rem; }

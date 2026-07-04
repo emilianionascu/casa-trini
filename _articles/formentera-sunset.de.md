@@ -16,6 +16,11 @@ Formentera liegt nach Westen, und schon das macht fast jeden Abend zu einem Erei
 
 Der dem Haus am nächsten gelegene Ort, **[Cala Saona](https://www.google.com/maps/search/?api=1&query=Cala+Saona+Formentera)**, ist eine geschützte Bucht mit hellem Sand, umrahmt von roten Felsen und Pinien. Die Bucht öffnet sich nach Westen, sodass die Sonne genau in ihrer Mitte untergeht. Kommen Sie früh, bestellen Sie etwas in einem der zwei Strandrestaurants und lassen Sie sich nieder. Von der Casa Trini sind es 10 Autominuten.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/sunset-2.webp' | relative_url }}" alt="A colourful sunset over the sea" loading="lazy" />
+</figure>
+
 ## 2. Leuchtturm Cap de Barbaria
 
 An der Südspitze der Insel endet die Straße am **[Faro de Cap de Barbaria](https://www.google.com/maps/search/?api=1&query=Faro+de+Cap+de+Barbaria+Formentera)**, einem einsamen weißen Leuchtturm auf einer wilden, baumlosen Landzunge. Es ist der spektakulärste Sonnenuntergang Formenteras — festes Schuhwerk für den steinigen Weg mitnehmen und für das Nachglühen bleiben. Fahren Sie 45 Minuten vorher los.

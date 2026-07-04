@@ -60,6 +60,37 @@ This uses the exact GitHub Pages toolchain (`github-pages` gem, pinned in
 - **Publishing:** edit in the visual CMS at `/admin` (see below) or add/commit a
   Markdown file — either way, pushing to `main` rebuilds the live site in ~1 min.
 
+## Editing posts in your browser (`/admin`)
+
+The site has a visual editor (**Sveltia CMS**) at **`/admin`** — write and
+translate posts in a form, no files or Git. Saving commits to `main`, and the
+site rebuilds in ~1 minute. Images you drop in upload to `assets/images/blog/`.
+
+**One-time setup (so the GitHub login works).** GitHub Pages has no server, so
+the editor needs a tiny free "OAuth relay":
+
+1. **Deploy the auth relay (Cloudflare Workers, free).** Open
+   <https://github.com/sveltia/sveltia-cms-auth> and use its one-click *Deploy to
+   Cloudflare Workers*. You'll get a URL like
+   `https://sveltia-cms-auth.<you>.workers.dev`.
+2. **Create a GitHub OAuth App.** GitHub → Settings → Developer settings →
+   OAuth Apps → *New OAuth App*.
+   - Homepage URL: `https://emilianionascu.github.io/casa-trini/`
+   - Authorization callback URL: `https://sveltia-cms-auth.<you>.workers.dev/callback`
+   Register it, copy the **Client ID**, and generate a **Client secret**.
+3. **Give the Worker the credentials.** In the Cloudflare Worker's settings, add
+   variables `GITHUB_CLIENT_ID`, `GITHUB_CLIENT_SECRET`, and
+   `ALLOWED_DOMAINS = emilianionascu.github.io,casatriniformentera.com`.
+4. **Point the CMS at the Worker.** In `admin/config.yml`, set `backend.base_url`
+   to your Worker URL (replace the placeholder) and commit.
+
+Then open `/admin`, click **Sign in with GitHub**, and edit away.
+
+**Writing tips:** one entry = one language; to translate, create another entry
+with the SAME *Article key* and the matching *Language*. The *URL path* must
+start with `/blog/<language>/`. Use the editor's image button to insert photos
+into the body.
+
 ## Things to finish (5-minute setup)
 
 1. **Contact form** — uses [FormSubmit](https://formsubmit.co) (free, no signup) in

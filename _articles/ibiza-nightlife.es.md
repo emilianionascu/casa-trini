@@ -22,6 +22,11 @@ En Platja d'en Bossa, dos gigantes al aire libre se miran de frente: **[Hï Ibiz
 
 Antes de que abran las discotecas, calienta motores en los bares del puerto deportivo de Ibiza, o acércate al paseo de los atardeceres de San Antonio, donde **[Café del Mar](https://www.google.com/maps/search/?api=1&query=Cafe+del+Mar+Ibiza)** y **[Café Mambo](https://www.google.com/maps/search/?api=1&query=Cafe+Mambo+Ibiza)** sirven cócteles con música chill-out mientras cae el sol.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/nightlife-2.webp' | relative_url }}" alt="A crowd enjoying a live music night" loading="lazy" />
+</figure>
+
 ## Cómo ir y volver
 
 En verano los ferris navegan con frecuencia entre **[La Savina](https://www.google.com/maps/search/?api=1&query=La+Savina+Formentera)** e Ibiza, y en temporada alta hay algunas salidas nocturnas. Pero las discotecas cierran al amanecer, así que la vuelta es lo que hay que planear con cuidado. Consulta siempre el horario de ferry actual y, sobre todo, el último barco de regreso.

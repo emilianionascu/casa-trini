@@ -22,6 +22,11 @@ A Platja d'en Bossa due giganti all'aperto si fronteggiano: **[Hï Ibiza](https:
 
 Prima che aprano le discoteche, scaldati nei bar della marina di Ibiza città, oppure raggiungi il lungomare dei tramonti di San Antonio, dove **[Café del Mar](https://www.google.com/maps/search/?api=1&query=Cafe+del+Mar+Ibiza)** e **[Café Mambo](https://www.google.com/maps/search/?api=1&query=Cafe+Mambo+Ibiza)** servono cocktail su musica chill-out mentre il sole cala.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/nightlife-2.webp' | relative_url }}" alt="A crowd enjoying a live music night" loading="lazy" />
+</figure>
+
 ## Come andare e tornare
 
 In estate i traghetti collegano frequentemente **[La Savina](https://www.google.com/maps/search/?api=1&query=La+Savina+Formentera)** e Ibiza, e in alta stagione alcune corse sono notturne. Ma i club vanno avanti fino all'alba, quindi il ritorno è la parte da pianificare con cura. Controlla sempre l'orario dei traghetti aggiornato e, soprattutto, l'ultima corsa per tornare.

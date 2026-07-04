@@ -17,6 +17,11 @@ La cocina de Formentera es pequeña, estacional y está profundamente ligada al 
 
 Si hay un plato que los isleños esperan todo el año, es el *raó* (también escrito *raor*), el pez nacarado *Xyrichtys novacula*. Su temporada de pesca se abre tradicionalmente en **septiembre** y se prolonga durante el otoño, lo que lo convierte en una auténtica especialidad de temporada. Suele freírse entero y comerse con los dedos, separando su delicada carne blanca directamente de la espina. Si visitas la isla en otoño, pedir raó es lo más auténtico que puedes hacer. Su precio es alto y depende de la captura del día, así que trátalo como el manjar que es.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/food-2.webp' | relative_url }}" alt="A pan of seafood paella" loading="lazy" />
+</figure>
+
 ## Pescado de la sal y de la olla
 
 Mucho antes de la refrigeración, los isleños conservaban la pesca al sol. El *peix sec* es pescado secado al sol, a menudo raya, un método ancestral que aún se practica. Es el alma de la *ensalada payesa*, con pescado seco desmenuzado, patata, huevo cocido y cebolla cruda aliñados con aceite local.

@@ -19,6 +19,11 @@ Der unbestrittene Star ist der Kunsthandwerksmarkt in **[El Pilar de la Mola](ht
 
 Hier findest du Stände mit handgefertigten Lederwaren, Silberschmuck, Textilien und eigenwilliger Kunst, oft von den Herstellern selbst verkauft. Live-Musik zieht über den Platz, während das Licht weicher wird, und die Stimmung ist entspannt und herzlich nostalgisch. Prüfe vor dem Aufbruch die aktuellen Tage und Zeiten, denn die Saison bestimmt den Rhythmus.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/markets-2.webp' | relative_url }}" alt="Handmade pottery, typical of the islands artisan markets" loading="lazy" />
+</figure>
+
 ## Sant Francesc Xavier: Kunsthandwerk in der Hauptstadt
 
 Die kleine weiß getünchte Inselhauptstadt **[Sant Francesc Xavier](https://www.google.com/maps/search/?api=1&query=Sant+Francesc+Xavier+Formentera)** ist ein wunderbarer Ort für lokales Kunsthandwerk, Keramik und Erzeugnisse. Rund um den Kirchplatz und die umliegenden Gassen findest du einen Handwerksmarkt neben unabhängigen Boutiquen und Feinkostläden.

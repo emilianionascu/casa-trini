@@ -22,6 +22,11 @@ Down in Platja d'en Bossa, two open-air giants face each other: **[Hï Ibiza](ht
 
 Before the clubs open, warm up along Ibiza town's marina bars, or head to the San Antonio sunset strip, where **[Café del Mar](https://www.google.com/maps/search/?api=1&query=Cafe+del+Mar+Ibiza)** and **[Café Mambo](https://www.google.com/maps/search/?api=1&query=Cafe+Mambo+Ibiza)** serve cocktails to a soundtrack of chill-out music as the sun drops.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/nightlife-2.webp' | relative_url }}" alt="A crowd enjoying a live music night" loading="lazy" />
+</figure>
+
 ## Getting there and back
 
 Ferries run frequently between **[La Savina](https://www.google.com/maps/search/?api=1&query=La+Savina+Formentera)** and Ibiza throughout the summer, and in peak season a few sailings run late. But clubs run until dawn, so the return trip is the part to plan carefully. Always check the current ferry timetable and, in particular, the last boat home.

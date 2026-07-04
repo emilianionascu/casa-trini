@@ -19,6 +19,11 @@ Den självklara stjärnan är hantverksmarknaden i **[El Pilar de la Mola](https
 
 Här finns stånd med handgjorda lädervaror, silversmycken, textilier och egensinnig konst, ofta sålda av tillverkarna själva. Levande musik sveper över torget medan ljuset mjuknar, och stämningen är avslappnad och varmt nostalgisk. Kontrollera aktuella dagar och tider innan du ger dig av, eftersom säsongen styr schemat.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/markets-2.webp' | relative_url }}" alt="Handmade pottery, typical of the islands artisan markets" loading="lazy" />
+</figure>
+
 ## Sant Francesc Xavier: hantverk i huvudstaden
 
 Öns lilla vitkalkade huvudort, **[Sant Francesc Xavier](https://www.google.com/maps/search/?api=1&query=Sant+Francesc+Xavier+Formentera)**, är en härlig plats att handla lokalt hantverk, keramik och matvaror. Runt kyrktorget och de kringliggande gränderna hittar du en hantverksmarknad tillsammans med fristående butiker och delikatessaffärer.

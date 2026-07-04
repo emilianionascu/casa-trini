@@ -17,6 +17,11 @@ Formenteras Küche ist klein, saisonal und eng mit dem Meer und dem Land verbund
 
 Wenn es ein Gericht gibt, auf das die Insulaner das ganze Jahr warten, dann ist es der *raó* (auch *raor* geschrieben), der perlmuttfarbene Messerfisch *Xyrichtys novacula*. Seine Fangsaison beginnt traditionell im **September** und reicht bis in den Herbst, was ihn zu einer echten saisonalen Spezialität macht. Er wird meist ganz gebraten und mit den Fingern gegessen, sein zartes weißes Fleisch löst man direkt von der Gräte. Wer im Herbst zu Besuch ist, bestellt mit raó das authentischste Gericht überhaupt. Der Preis ist hoch und hängt vom Tagesfang ab, also behandeln Sie ihn als die Delikatesse, die er ist.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/food-2.webp' | relative_url }}" alt="A pan of seafood paella" loading="lazy" />
+</figure>
+
 ## Fisch aus Salz und Topf
 
 Lange vor der Kühlung konservierten die Insulaner ihren Fang in der Sonne. *Peix sec* ist sonnengetrockneter Fisch, oft Rochen, eine uralte, noch heute gepflegte Methode. Er ist das Herz der *ensalada payesa*, dem Bauernsalat aus zerpflücktem Trockenfisch, Kartoffel, gekochtem Ei und roher Zwiebel mit lokalem Öl.

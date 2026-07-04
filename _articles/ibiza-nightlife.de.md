@@ -22,6 +22,11 @@ In Platja d'en Bossa stehen sich zwei Open-Air-Giganten gegenüber: **[Hï Ibiza
 
 Bevor die Clubs öffnen, wärmst du dich am besten in den Hafenbars von Ibiza-Stadt auf oder ziehst zur Sonnenuntergangs-Promenade von San Antonio, wo **[Café del Mar](https://www.google.com/maps/search/?api=1&query=Cafe+del+Mar+Ibiza)** und **[Café Mambo](https://www.google.com/maps/search/?api=1&query=Cafe+Mambo+Ibiza)** Cocktails zu Chill-out-Klängen servieren, während die Sonne versinkt.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/nightlife-2.webp' | relative_url }}" alt="A crowd enjoying a live music night" loading="lazy" />
+</figure>
+
 ## Hin und zurück
 
 Im Sommer verkehren die Fähren häufig zwischen **[La Savina](https://www.google.com/maps/search/?api=1&query=La+Savina+Formentera)** und Ibiza, in der Hochsaison fahren einige auch spät. Aber die Clubs laufen bis zum Morgengrauen, deshalb ist die Rückfahrt der Teil, den du sorgfältig planen solltest. Prüfe immer den aktuellen Fährfahrplan und vor allem das letzte Boot zurück.

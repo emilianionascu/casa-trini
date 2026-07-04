@@ -16,6 +16,11 @@ Formentera vetter mot väster, och bara det gör nästan varje kväll till en h�
 
 Den plats som ligger närmast huset, **[Cala Saona](https://www.google.com/maps/search/?api=1&query=Cala+Saona+Formentera)**, är en skyddad vik med ljus sand omgiven av röda klippor och tallar. Viken öppnar sig mot väster, så solen går ner rakt i mitten. Kom tidigt, beställ något på en av de två strandrestaurangerna och slå dig ner. Det är 10 minuters bilfärd från Casa Trini.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/sunset-2.webp' | relative_url }}" alt="A colourful sunset over the sea" loading="lazy" />
+</figure>
+
 ## 2. Fyren Cap de Barbaria
 
 På öns sydspets tar vägen slut vid **[Faro de Cap de Barbaria](https://www.google.com/maps/search/?api=1&query=Faro+de+Cap+de+Barbaria+Formentera)**, en ensam vit fyr på en vild, trädlös udde. Det är Formenteras mest filmiska solnedgång — ta med stadiga skor för den steniga stigen och stanna kvar för efterglöden. Åk 45 minuter innan.

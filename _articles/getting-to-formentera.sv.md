@@ -17,6 +17,11 @@ Formentera är den minsta av Spaniens bebodda Baleariska öar, och själva resan
 
 Formentera har ingen egen flygplats, så varje resa börjar över den större grannön. Du flyger till **[Ibizas flygplats](https://www.google.com/maps/search/?api=1&query=Ibiza+Airport+Ibiza)** (IBZ), som trafikeras av direktflyg från hela Spanien och stora delar av Europa, särskilt under sommarsäsongen. Därifrån går det bara att fortsätta sjövägen, så räkna med en resa i två etapper: först flyg, sedan båt.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/getting-there-2.webp' | relative_url }}" alt="A small electric rental vehicle, a popular way to get around Formentera" loading="lazy" />
+</figure>
+
 ## Från flygplatsen till färjehamnen
 
 När du landat behöver du ta dig till **[Ibiza stad](https://www.google.com/maps/search/?api=1&query=Ibiza+town+Eivissa+Ibiza)** (Eivissa), varifrån färjorna till Formentera avgår. Det snabbaste alternativet är taxi, som tar ungefär 20 minuter till hamnen. Alternativt förbinder flygplatsbussen (linje 10 / airbus) terminalen med stadens centrum; från hållplatsen är det en kort promenad till färjeterminalen. Båda alternativen är pålitliga, men taxi är betydligt bekvämare om du reser med bagage.

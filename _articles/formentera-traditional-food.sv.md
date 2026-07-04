@@ -17,6 +17,11 @@ Formenteras kök är litet, säsongsbetonat och djupt förbundet med havet och j
 
 Om det finns en rätt som öborna väntar på hela året är det *raó* (även skrivet *raor*), den pärlemorskimrande knivfisken *Xyrichtys novacula*. Fiskesäsongen öppnar traditionellt i **september** och sträcker sig in i hösten, vilket gör den till en äkta säsongsspecialitet. Fisken steks vanligtvis hel och äts med fingrarna, det delikata vita köttet lossas direkt från benet. Besöker du ön på hösten är det mest autentiska du kan göra att beställa raó. Priset är högt och tillgången beror på dagens fångst, så behandla den som den delikatess den är.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/food-2.webp' | relative_url }}" alt="A pan of seafood paella" loading="lazy" />
+</figure>
+
 ## Fisk från saltet och grytan
 
 Långt före kylskåpen bevarade öborna sin fångst i solen. *Peix sec* är soltorkad fisk, ofta rocka, en uråldrig metod som fortfarande används. Den är kärnan i *ensalada payesa*, bondesalladen med strimlad torkad fisk, potatis, kokt ägg och rå lök i lokal olja.

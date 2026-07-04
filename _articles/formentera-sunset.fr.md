@@ -16,6 +16,11 @@ Formentera est orientée à l'ouest, et ce simple fait transforme presque chaque
 
 L'endroit le plus proche de la maison, **[Cala Saona](https://www.google.com/maps/search/?api=1&query=Cala+Saona+Formentera)** est une crique abritée de sable clair encadrée de falaises rouges et de pins. La baie s'ouvre à l'ouest, si bien que le soleil se couche en plein milieu. Arrivez tôt, commandez un verre dans l'un des deux restaurants de plage et installez-vous. C'est à 10 minutes en voiture de Casa Trini.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/sunset-2.webp' | relative_url }}" alt="A colourful sunset over the sea" loading="lazy" />
+</figure>
+
 ## 2. Le phare de Cap de Barbaria
 
 À la pointe sud de l'île, la route s'achève au **[Faro de Cap de Barbaria](https://www.google.com/maps/search/?api=1&query=Faro+de+Cap+de+Barbaria+Formentera)**, un phare blanc solitaire sur un cap sauvage et sans arbres. C'est le coucher de soleil le plus cinématographique de Formentera : prévoyez de bonnes chaussures pour le chemin rocailleux et restez pour les dernières lueurs. Partez 45 minutes avant.

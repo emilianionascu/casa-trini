@@ -17,6 +17,11 @@ La cucina di Formentera è piccola, stagionale e profondamente legata al mare e 
 
 Se c'è un piatto che gli isolani aspettano tutto l'anno, è il *raó* (scritto anche *raor*), il pesce madreperlaceo *Xyrichtys novacula*. La sua stagione di pesca si apre tradizionalmente a **settembre** e prosegue in autunno, il che lo rende una vera specialità stagionale. Di solito viene fritto intero e mangiato con le mani, staccando la delicata carne bianca direttamente dalla lisca. Se visiti l'isola in autunno, ordinare il raó è la cosa più autentica che tu possa fare a tavola. Il prezzo è alto e dipende dal pescato del giorno, quindi trattalo come la prelibatezza che è.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/food-2.webp' | relative_url }}" alt="A pan of seafood paella" loading="lazy" />
+</figure>
+
 ## Pesce dal sale e dalla pentola
 
 Molto prima della refrigerazione, gli isolani conservavano il pescato al sole. Il *peix sec* è pesce essiccato al sole, spesso razza, un metodo antichissimo ancora praticato. È il cuore dell'*ensalada payesa*, l'insalata contadina di pesce secco sfilacciato, patata, uovo sodo e cipolla cruda condita con olio locale.

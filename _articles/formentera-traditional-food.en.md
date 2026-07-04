@@ -17,6 +17,11 @@ Formentera's kitchen is small, seasonal and deeply tied to the sea and the land.
 
 If there is one dish islanders wait for all year, it is *raó* (also written *raor*), the pearly razorfish, *Xyrichtys novacula*. Its fishing season traditionally opens in **September** and runs into autumn, making it a genuine seasonal speciality. The fish is usually fried whole and eaten with the fingers, its delicate white flesh prised straight off the bone. If you visit in autumn, ordering raó is the most authentic thing you can do at the table. Prices are high and supply depends on the day's catch, so treat it as the delicacy it is.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/food-2.webp' | relative_url }}" alt="A pan of seafood paella" loading="lazy" />
+</figure>
+
 ## Fish from the salt and the pot
 
 Long before refrigeration, islanders preserved their catch in the sun. *Peix sec* is sun-dried fish, often skate or ray, an ancient method still practised today. It is the heart of *ensalada payesa*, the peasant salad of shredded dried fish, potato, boiled egg and raw onion dressed with local oil.

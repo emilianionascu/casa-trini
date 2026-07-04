@@ -17,6 +17,12 @@ Beyond the turquoise water and quiet coves, Formentera guards a rural soul shape
 
 The traditional Formentera home, or finca, is a cubist composition of blinding white walls, thick enough to keep the summer heat at bay, topped by a flat roof once used to collect rainwater. Fields are stitched together by kilometres of dry-stone walls, and defensive watchtowers still stand along the coast, raised centuries ago to warn of pirate raids. Casa Trini belongs to exactly this tradition, and staying in it is part of the experience.
 
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/traditions-2.webp' | relative_url }}" alt="The salt flats of Ses Salines, Formentera" loading="lazy" />
+  <figcaption>Ses Salines de Formentera — Photo: Zavijavah / Wikimedia Commons (CC BY-SA 3.0)</figcaption>
+</figure>
+
 ## Life close to the land
 
 Formentera's countryside tells its own story. Ancient fig trees spread outward on wooden props, their branches trained into wide green parasols that shade the earth. Almond trees blossom in late winter, and fragrant woods of sabina (a wind-sculpted juniper) run down to the dunes. For centuries the island lived off the sea salt harvested at the salt flats of **[Ses Salines](https://www.google.com/maps/search/?api=1&query=Ses+Salines+Formentera)**, whose shimmering pools still draw flamingos and photographers alike.

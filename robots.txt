@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /thanks.html
+Disallow: /admin/
 
 Sitemap: https://casatriniformentera.com/sitemap.xml
