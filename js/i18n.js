@@ -358,6 +358,7 @@ const GALLERY = [
   { src: GP + "path-sea.webp",        w: 1200, h: 1600 },
   { src: GP + "room-breakfast.webp",  w: 1067, h: 1600 },
   { src: GP + "pool-swing.webp",      w: 1600, h: 1200 },
+  { src: GP + "play-trampoline.webp", w: 1200, h: 1600 },
   // — professional set —
   { src: GP + "p01-landscape.webp", w: 1400, h: 934 },
   { src: GP + "p07-landscape.webp", w: 1400, h: 924 },
@@ -368,7 +369,6 @@ const GALLERY = [
   { src: GP + "p08-landscape.webp", w: 1400, h: 924 },
   { src: GP + "p12-landscape.webp", w: 1400, h: 928 },
   { src: GP + "play-slide.webp",    w: 1400, h: 934 },
-  { src: GP + "p05-landscape.webp", w: 1400, h: 934 },
   { src: GP + "p17-portrait.webp",  w: 934,  h: 1400 },
   { src: GP + "p18-landscape.webp", w: 1400, h: 922 },
   { src: GP + "play-swings.webp",   w: 1400, h: 934 },
@@ -378,9 +378,7 @@ const GALLERY = [
   { src: GP + "p28-landscape.webp", w: 1400, h: 934 },
   { src: GP + "play-frame.webp",    w: 1400, h: 934 },
   { src: GP + "house-arch.webp",    w: 1400, h: 934 },
-  { src: GP + "p35-landscape.webp", w: 1400, h: 934 },
   { src: GP + "p32-landscape.webp", w: 1400, h: 934 },
-  { src: GP + "house-pool.webp",    w: 1200, h: 800 },
   { src: GP + "p03-landscape.webp", w: 1400, h: 934 },
   { src: GP + "p37-landscape.webp", w: 1400, h: 948 },
   { src: GP + "p14-landscape.webp", w: 1400, h: 934 },
@@ -391,7 +389,6 @@ const GALLERY = [
   { src: GP + "p34-landscape.webp", w: 1400, h: 934 },
   { src: GP + "p30-landscape.webp", w: 1400, h: 934 },
   { src: GP + "p31-landscape.webp", w: 1400, h: 934 },
-  { src: GP + "p24-landscape.webp", w: 1400, h: 934 },
   { src: GP + "p26-landscape.webp", w: 1400, h: 934 },
   { src: GP + "p38-landscape.webp", w: 1400, h: 954 }
 ];
