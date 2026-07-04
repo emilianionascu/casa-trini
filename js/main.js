@@ -41,6 +41,14 @@ const LANG_LABEL = { en: "EN", es: "ES", de: "DE", it: "IT", fr: "FR", sv: "SV" 
 const $  = (s, c = document) => c.querySelector(s);
 const $$ = (s, c = document) => [...c.querySelectorAll(s)];
 
+/* Asset base — derived from where this script is served, so relative gallery
+   paths resolve correctly on any page depth (/, /en/, …) and on any domain
+   (github.io/casa-trini or the custom domain). e.g. ".../casa-trini/" */
+const ASSET_BASE = (function () {
+  const s = document.currentScript && document.currentScript.src;
+  return s ? s.replace(/js\/main\.js.*$/, "") : "";
+})();
+
 /* ---------- i18n ---------- */
 function detectLang() {
   const saved = localStorage.getItem("ct_lang");
@@ -62,9 +70,6 @@ function applyLang(lang) {
   $("#langCurrent").textContent = LANG_LABEL[lang];
   $$("#langMenu button").forEach(b => b.classList.toggle("active", b.dataset.lang === lang));
   localStorage.setItem("ct_lang", lang);
-  // Point the "Discover Formentera" link at the reader's language index.
-  const disc = document.getElementById("navDiscover");
-  if (disc) disc.setAttribute("href", "blog/" + (lang === "en" ? "" : lang + "/"));
   if (window.refreshDynamic) window.refreshDynamic();  // re-render JS-set text (nights, guests)
 }
 
@@ -97,11 +102,11 @@ langBtn.addEventListener("click", e => {
   const open = langMenu.classList.toggle("open");
   langBtn.setAttribute("aria-expanded", String(open));
 });
-$$("#langMenu button").forEach(b =>
-  b.addEventListener("click", () => {
-    applyLang(b.dataset.lang);
-    langMenu.classList.remove("open");
-    langBtn.setAttribute("aria-expanded", "false");
+// The language switcher is now real links to /, /en/, /de/, … — remember the
+// visitor's explicit choice so the root page's auto-detect respects it.
+$$("#langMenu a").forEach(a =>
+  a.addEventListener("click", () => {
+    if (a.dataset.lang) localStorage.setItem("ct_lang", a.dataset.lang);
   })
 );
 document.addEventListener("click", () => langMenu.classList.remove("open"));
@@ -112,7 +117,7 @@ GALLERY.forEach((item, i) => {
   const fig = document.createElement("figure");
   fig.dataset.index = i;
   const img = document.createElement("img");
-  img.src = item.src;
+  img.src = ASSET_BASE + item.src;
   img.loading = "lazy";
   img.decoding = "async";
   if (item.w) img.width = item.w;
@@ -168,7 +173,7 @@ let lbIndex = 0;
 
 function openLb(i) {
   lbIndex = (i + GALLERY.length) % GALLERY.length;
-  lbImg.src = GALLERY[lbIndex].src;
+  lbImg.src = ASSET_BASE + GALLERY[lbIndex].src;
   lb.classList.add("open");
   lb.setAttribute("aria-hidden", "false");
   document.body.classList.add("nav-open");
@@ -206,7 +211,7 @@ function t(key) { return (I18N[document.documentElement.lang] || I18N.en)[key]; 
 // After FormSubmit shows its captcha, return the guest to our thank-you page
 // (resolved against the current URL so it works on any domain / subpath).
 const nextField = $("#cf-next");
-if (nextField) nextField.value = new URL("thanks.html", location.href).href;
+if (nextField) nextField.value = ASSET_BASE + "thanks.html";
 
 /* --- Date helpers --- */
 const pad = n => String(n).padStart(2, "0");
@@ -473,5 +478,6 @@ async function loadGoogleReviews() {
 
 /* ---------- Init ---------- */
 $("#year").textContent = new Date().getFullYear();
-applyLang(detectLang());
+// Each page is server-rendered in its own language; use that, not localStorage.
+applyLang(document.documentElement.lang || "es");
 loadGoogleReviews();
