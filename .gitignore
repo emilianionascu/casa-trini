@@ -19,3 +19,6 @@ Gemfile.lock
 node_modules/
 package-lock.json
 
+# Photo drop-zone (originals; optimized .webp go in assets/ and are committed)
+_incoming/
+

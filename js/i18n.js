@@ -343,6 +343,22 @@ const I18N = {
    { src: "assets/images/uploads/your-photo.jpg", w: <width>, h: <height> } here. */
 const GP = "assets/images/gallery-pro/";
 const GALLERY = [
+  // — owner's photos (July 2026) —
+  { src: GP + "pool-aerial.webp",     w: 1600, h: 997 },
+  { src: GP + "pool-palm.webp",       w: 1067, h: 1600 },
+  { src: GP + "view-dusk.webp",       w: 1600, h: 1067 },
+  { src: GP + "room-twin.webp",       w: 1067, h: 1600 },
+  { src: GP + "pool-night.webp",      w: 1280, h: 960 },
+  { src: GP + "pool-loungers.webp",   w: 1067, h: 1600 },
+  { src: GP + "room-terracotta.webp", w: 1600, h: 1059 },
+  { src: GP + "walkway-pergola.webp", w: 1067, h: 1600 },
+  { src: GP + "porch-flowers.webp",   w: 1600, h: 900 },
+  { src: GP + "garden-jasmine.webp",  w: 1200, h: 1600 },
+  { src: GP + "house-exterior.webp",  w: 1600, h: 1200 },
+  { src: GP + "path-sea.webp",        w: 1200, h: 1600 },
+  { src: GP + "room-breakfast.webp",  w: 1067, h: 1600 },
+  { src: GP + "pool-swing.webp",      w: 1600, h: 1200 },
+  // — professional set —
   { src: GP + "p01-landscape.webp", w: 1400, h: 934 },
   { src: GP + "p07-landscape.webp", w: 1400, h: 924 },
   { src: GP + "p06-portrait.webp",  w: 934,  h: 1400 },
@@ -361,7 +377,6 @@ const GALLERY = [
   { src: GP + "p22-portrait.webp",  w: 934,  h: 1400 },
   { src: GP + "p28-landscape.webp", w: 1400, h: 934 },
   { src: GP + "play-frame.webp",    w: 1400, h: 934 },
-  { src: GP + "p19-landscape.webp", w: 1400, h: 924 },
   { src: GP + "house-arch.webp",    w: 1400, h: 934 },
   { src: GP + "p35-landscape.webp", w: 1400, h: 934 },
   { src: GP + "p32-landscape.webp", w: 1400, h: 934 },

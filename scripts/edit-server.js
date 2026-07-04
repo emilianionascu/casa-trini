@@ -63,6 +63,26 @@ const CLIENT = `
     el.addEventListener('blur',done);
     el.addEventListener('keydown',function(e){ if(e.key==='Enter'&&!e.shiftKey){ e.preventDefault(); el.blur(); } if(e.key==='Escape'){ el.textContent=orig; el.blur(); } });
   });
+  document.querySelectorAll('#galleryGrid figure').forEach(function(fig){
+    var img=fig.querySelector('img'); if(!img)return;
+    fig.style.position='relative';
+    var btn=document.createElement('button');
+    btn.type='button'; btn.title='Descartar foto'; btn.textContent='\\u2715';
+    btn.style.cssText='position:absolute;top:8px;right:8px;z-index:6;width:30px;height:30px;border-radius:50%;border:2px solid #fff;background:rgba(46,42,36,.72);color:#fff;font-size:14px;line-height:1;cursor:pointer;padding:0;box-shadow:0 2px 8px rgba(0,0,0,.35)';
+    btn.addEventListener('mouseenter',function(){ btn.style.background='#c0392b'; });
+    btn.addEventListener('mouseleave',function(){ btn.style.background='rgba(46,42,36,.72)'; });
+    btn.addEventListener('click',function(e){
+      e.preventDefault(); e.stopPropagation();
+      var file=(img.getAttribute('src')||'').split('/').pop().split('?')[0];
+      if(!confirm('¿Descartar esta foto de la galería?\\n'+file)) return;
+      status.textContent='Descartando…';
+      fetch('/__discard',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({file:file})})
+        .then(function(r){return r.json();})
+        .then(function(j){ if(j.ok){ fig.remove(); window.dispatchEvent(new Event('resize')); status.textContent='Foto descartada \\u2713  ('+j.remaining+' restantes)'; } else { status.textContent='Error: '+(j.error||'?'); } })
+        .catch(function(){ status.textContent='Error de red'; });
+    });
+    fig.appendChild(btn);
+  });
 })();
 `;
 
@@ -85,6 +105,29 @@ const server = http.createServer((req, res) => {
     });
     return;
   }
+  if (req.method === "POST" && req.url === "/__discard") {
+    let body = ""; req.on("data", c => (body += c));
+    req.on("end", () => {
+      try {
+        const { file } = JSON.parse(body);
+        if (!file || !/^[\w.\-]+$/.test(file)) throw new Error("bad filename");
+        let src = fs.readFileSync(I18N_FILE, "utf8");
+        const before = new Function(src + "; return GALLERY;")().length;
+        const esc = file.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        const re = new RegExp('\\n\\s*\\{[^{}]*"' + esc + '"[^{}]*\\},?');
+        if (!re.test(src)) throw new Error("photo not in gallery: " + file);
+        src = src.replace(re, "");
+        const remaining = new Function(src + "; return GALLERY;")().length; // validate
+        fs.writeFileSync(I18N_FILE, src);
+        res.writeHead(200, { "Content-Type": "application/json" });
+        res.end(JSON.stringify({ ok: true, remaining, removed: before - remaining }));
+      } catch (e) {
+        res.writeHead(200, { "Content-Type": "application/json" });
+        res.end(JSON.stringify({ ok: false, error: String(e.message || e) }));
+      }
+    });
+    return;
+  }
   fetch(UPSTREAM + req.url, { headers: { accept: req.headers.accept || "*/*" }, redirect: "manual" })
     .then(async (up) => {
       const ct = up.headers.get("content-type") || "";
@@ -92,11 +135,11 @@ const server = http.createServer((req, res) => {
         let html = await up.text();
         html = html.replace(/<script>\(function\(\)\{try\{var s=localStorage[\s\S]*?\}\)\(\);<\/script>/, ""); // drop lang auto-redirect while editing
         html = html.replace(/<\/body>/i, "<script>" + CLIENT + "</script></body>");
-        res.writeHead(up.status, { "Content-Type": "text/html; charset=utf-8" });
+        res.writeHead(up.status, { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" });
         res.end(html);
       } else {
         const buf = Buffer.from(await up.arrayBuffer());
-        res.writeHead(up.status, { "Content-Type": ct || "application/octet-stream" });
+        res.writeHead(up.status, { "Content-Type": ct || "application/octet-stream", "Cache-Control": "no-store" });
         res.end(buf);
       }
     })
