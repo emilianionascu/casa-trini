@@ -13,6 +13,7 @@ en:
   cta_text: Casa Trini sleeps up to 8, just 500 m from the sea.
   cta_btn: Check availability
   read: Read more
+  footer_note: You arrive as tourists and leave as friends
 
 es:
   section: Descubre Formentera
@@ -26,6 +27,7 @@ es:
   cta_text: Casa Trini aloja hasta 8 personas, a solo 500 m del mar.
   cta_btn: Consultar disponibilidad
   read: Leer más
+  footer_note: Vienen como turistas y se van como amigos
 
 de:
   section: Formentera entdecken
@@ -39,6 +41,7 @@ de:
   cta_text: Casa Trini bietet Platz für bis zu 8 Gäste, nur 500 m vom Meer.
   cta_btn: Verfügbarkeit prüfen
   read: Weiterlesen
+  footer_note: Sie kommen als Touristen und gehen als Freunde
 
 it:
   section: Scopri Formentera
@@ -52,6 +55,7 @@ it:
   cta_text: Casa Trini ospita fino a 8 persone, a soli 500 m dal mare.
   cta_btn: Verifica disponibilità
   read: Leggi di più
+  footer_note: Arrivate come turisti e ripartite come amici
 
 fr:
   section: Découvrir Formentera
@@ -65,6 +69,7 @@ fr:
   cta_text: Casa Trini accueille jusqu'à 8 personnes, à 500 m de la mer.
   cta_btn: Vérifier les disponibilités
   read: Lire la suite
+  footer_note: Vous arrivez en touristes et repartez en amis
 
 sv:
   section: Upptäck Formentera
@@ -78,3 +83,4 @@ sv:
   cta_text: Casa Trini har plats för upp till 8 gäster, bara 500 m från havet.
   cta_btn: Kolla tillgänglighet
   read: Läs mer
+  footer_note: Ni kommer som turister och åker hem som vänner

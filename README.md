@@ -153,8 +153,10 @@ listing precisely (coordinates 38.7126, 1.4089).
 
 English, Español, Deutsch, Italiano, Français, Svenska — switch with the
 selector in the header. The choice is remembered (localStorage) and the site
-auto-detects the visitor's browser language on first visit. The brand tagline
+auto-detects the visitor's browser language on first visit. The hero headline
 *"Vive Formentera auténtica"* is intentionally kept in Spanish in every language.
+The footer tagline (`footer.tagline` in `js/i18n.js` / `footer_note` in `_data/ui.yml`)
+is localized per language.
 
 ## Performance & SEO
 
