@@ -53,3 +53,7 @@ exclude:
   - Gemfile.lock
   - vendor
   - .playwright-mcp
+  - node_modules
+  - package.json
+  - package-lock.json
+  - _src

@@ -1,0 +1,12 @@
+{
+  "name": "casa-trini-tools",
+  "private": true,
+  "description": "Dev tooling for the Casa Trini site: homepage generator + local in-place editor.",
+  "scripts": {
+    "build:home": "node scripts/build-home.js",
+    "edit": "node scripts/edit-server.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

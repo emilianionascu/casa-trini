@@ -60,6 +60,28 @@ This uses the exact GitHub Pages toolchain (`github-pages` gem, pinned in
 - **Publishing:** edit in the visual CMS at `/admin` (see below) or add/commit a
   Markdown file — either way, pushing to `main` rebuilds the live site in ~1 min.
 
+## Edit the homepage text in place (local, no login)
+
+Change homepage copy by **clicking it on the page** — edits save straight into
+`js/i18n.js` and the pages regenerate.
+
+```powershell
+npm install          # once (installs the tooling)
+docker compose up    # terminal 1 — the Jekyll preview (:4000)
+npm run edit         # terminal 2 — the in-place editor (:4001)
+```
+
+Open **http://localhost:4001/casa-trini/**, click any heading or paragraph, type your
+change, and click away (or press Enter) to save — it writes into `js/i18n.js` for that
+page's **language** and regenerates the homepages. Switch language with the header
+dropdown to edit that language's copy. Press `Esc` to cancel an edit. When you're happy,
+commit and push to deploy.
+
+Notes: this is homepage strings only (blog articles are edited in `/admin` or as
+Markdown), it runs **only on your machine** (nothing is added to the public site), and it
+edits the same `js/i18n.js` the generator reads — so `npm run build:home` stays the source
+of truth.
+
 ## Editing posts in your browser (`/admin`)
 
 The site has a visual editor (**Sveltia CMS**) at **`/admin`** — write and
