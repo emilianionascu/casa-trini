@@ -149,6 +149,8 @@ function layoutGallery() {
   const OFFSET = 3;
   const nextRow = new Array(cols).fill(1);
   if (cols >= 3) { nextRow[0] += OFFSET; nextRow[cols - 1] += OFFSET; }
+  const lastFig = new Array(cols).fill(null);
+  const lastSpan = new Array(cols).fill(0);
   for (const fig of figs) {
     let c = 0;
     for (let k = 1; k < cols; k++) if (nextRow[k] < nextRow[c]) c = k;
@@ -157,6 +159,16 @@ function layoutGallery() {
     fig.style.gridRowStart = nextRow[c];
     fig.style.gridRowEnd = "span " + span;
     nextRow[c] += span;
+    lastFig[c] = fig; lastSpan[c] = span;
+  }
+  // Flush bottom: stretch each column's last tile down to the deepest column so
+  // the gallery ends on a clean, level edge (staggered top, flush bottom). Images
+  // use object-fit:cover, so they crop cleanly rather than leaving a ragged edge.
+  const bottom = Math.max.apply(null, nextRow);
+  for (let c = 0; c < cols; c++) {
+    if (!lastFig[c]) continue;
+    const extra = bottom - nextRow[c];
+    if (extra > 0) lastFig[c].style.gridRowEnd = "span " + (lastSpan[c] + extra);
   }
 }
 layoutGallery();
