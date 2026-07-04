@@ -7,11 +7,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {%- comment -%} On the default (Spanish) index, send visitors to their browser language {%- endcomment -%}
+  {% if page.url == '/blog/' %}<script>(function(){try{var s=localStorage.getItem("ct_lang");var supp=["en","de","it","fr","sv"];var w=s||(navigator.language||"").slice(0,2).toLowerCase();if(w&&w!=="es"&&supp.indexOf(w)>=0){location.replace("{{ '/blog/' | relative_url }}"+w+"/");}}catch(e){}})();</script>{% endif %}
   {% seo %}
   {%- comment -%} hreflang between the per-language index pages {%- endcomment -%}
   {%- assign langs = "en,es,de,it,fr,sv" | split: "," -%}
   {%- for l in langs -%}
-    {%- if l == "en" -%}<link rel="alternate" hreflang="en" href="{{ '/blog/' | absolute_url }}" />
+    {%- if l == "es" -%}<link rel="alternate" hreflang="es" href="{{ '/blog/' | absolute_url }}" />
     {%- else -%}<link rel="alternate" hreflang="{{ l }}" href="{{ '/blog/' | append: l | append: '/' | absolute_url }}" />{%- endif -%}
   {% endfor -%}
   <link rel="alternate" hreflang="x-default" href="{{ '/blog/' | absolute_url }}" />
@@ -20,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}?v=20260704e" />
+  <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}?v=20260704f" />
 </head>
 <body class="blog-body">
 
@@ -39,7 +41,7 @@
           </button>
           <ul class="lang-menu" id="langMenu" role="menu">
             {%- for l in langs -%}
-            <li><a href="{% if l == 'en' %}{{ '/blog/' | relative_url }}{% else %}{{ '/blog/' | append: l | append: '/' | relative_url }}{% endif %}" role="menuitem"{% if l == L %} aria-current="true"{% endif %}>{{ l | upcase }}</a></li>
+            <li><a href="{% if l == 'es' %}{{ '/blog/' | relative_url }}{% else %}{{ '/blog/' | append: l | append: '/' | relative_url }}{% endif %}" data-lang="{{ l }}" role="menuitem"{% if l == L %} aria-current="true"{% endif %}>{{ l | upcase }}</a></li>
             {%- endfor -%}
           </ul>
         </div>
@@ -85,6 +87,9 @@
       if (!b || !m) return;
       b.addEventListener('click', function (e) { e.stopPropagation(); var o = m.classList.toggle('open'); b.setAttribute('aria-expanded', o); });
       document.addEventListener('click', function () { m.classList.remove('open'); });
+      Array.prototype.forEach.call(m.querySelectorAll('a[data-lang]'), function (a) {
+        a.addEventListener('click', function () { try { localStorage.setItem('ct_lang', a.getAttribute('data-lang')); } catch (e) {} });
+      });
     })();
   </script>
 </body>

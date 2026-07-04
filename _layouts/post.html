@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}?v=20260704e" />
+  <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}?v=20260704f" />
 </head>
 <body class="blog-body">
 
@@ -28,7 +28,7 @@
         <span class="brand-sub">Formentera</span>
       </a>
       <nav class="nav">
-        <a href="{{ '/blog/' | relative_url }}{% if L != 'en' %}{{ L }}/{% endif %}">{{ t.section }}</a>
+        <a href="{{ '/blog/' | relative_url }}{% if L != 'es' %}{{ L }}/{% endif %}">{{ t.section }}</a>
         <a href="{{ '/' | relative_url }}#about">{{ t.nav_house }}</a>
         <a href="{{ '/' | relative_url }}#contact">{{ t.nav_contact }}</a>
         {%- if page.ref -%}
@@ -39,7 +39,7 @@
           </button>
           <ul class="lang-menu" id="langMenu" role="menu">
             {%- for tr in translations -%}
-            <li><a href="{{ tr.url | relative_url }}" role="menuitem"{% if tr.lang == L %} aria-current="true"{% endif %}>{{ tr.lang | upcase }}</a></li>
+            <li><a href="{{ tr.url | relative_url }}" data-lang="{{ tr.lang }}" role="menuitem"{% if tr.lang == L %} aria-current="true"{% endif %}>{{ tr.lang | upcase }}</a></li>
             {%- endfor -%}
           </ul>
         </div>
@@ -70,7 +70,7 @@
         <h2>{{ t.cta_title }}</h2>
         <p>{{ t.cta_text }}</p>
         <a class="btn btn-primary" href="{{ '/' | relative_url }}#contact">{{ t.cta_btn }}</a>
-        <p class="post-back"><a href="{{ '/blog/' | relative_url }}{% if L != 'en' %}{{ L }}/{% endif %}">← {{ t.back }}</a></p>
+        <p class="post-back"><a href="{{ '/blog/' | relative_url }}{% if L != 'es' %}{{ L }}/{% endif %}">← {{ t.back }}</a></p>
       </section>
     </div>
   </article>
@@ -94,6 +94,9 @@
         b.setAttribute('aria-expanded', open);
       });
       document.addEventListener('click', function () { m.classList.remove('open'); b.setAttribute('aria-expanded', false); });
+      Array.prototype.forEach.call(m.querySelectorAll('a[data-lang]'), function (a) {
+        a.addEventListener('click', function () { try { localStorage.setItem('ct_lang', a.getAttribute('data-lang')); } catch (e) {} });
+      });
     })();
   </script>
 </body>
