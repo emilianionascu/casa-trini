@@ -41,4 +41,4 @@ Aquí está lo que los visitantes subestiman: **octubre sigue siendo mes de play
 - **Para tranquilidad y flores silvestres:** mayo.
 - Vengas cuando vengas, lleva algo ligero de abrigo para la noche: la brisa marina refresca tras la puesta de sol.
 
-Casa Trini está abierta durante toda la temporada, a solo 500 m del mar y con capacidad para ocho personas — así que puedes elegir el mes que más te convenga y seguir yendo caminando al agua.
+Casa Trini está abierta durante toda la temporada, a solo 500 m del mar y con capacidad para entre 1 y 8 personas — así que puedes elegir el mes que más te convenga y seguir yendo caminando al agua.

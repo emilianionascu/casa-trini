@@ -41,4 +41,4 @@ Und hier unterschätzen es Besucher: **Der Oktober ist noch immer ein Strandmona
 - **Für Ruhe und Wildblumen:** Mai.
 - Wann Sie auch kommen: Packen Sie etwas Leichtes für die Abende ein — die Meeresbrise kühlt nach Sonnenuntergang ab.
 
-Casa Trini ist die ganze Saison über geöffnet, nur 500 m vom Meer entfernt und mit Platz für bis zu acht Gäste — so können Sie den Monat wählen, der Ihnen passt, und trotzdem zu Fuß zum Wasser gehen.
+Casa Trini ist die ganze Saison über geöffnet, nur 500 m vom Meer entfernt und mit Platz für 1 bis 8 Gäste — so können Sie den Monat wählen, der Ihnen passt, und trotzdem zu Fuß zum Wasser gehen.

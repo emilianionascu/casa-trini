@@ -41,4 +41,4 @@ Voici ce que les visiteurs sous-estiment : **octobre est encore un mois de plage
 - **Pour la tranquillité et les fleurs sauvages :** mai.
 - Quelle que soit la période, emportez une petite laine pour le soir : la brise marine rafraîchit après le coucher du soleil.
 
-Casa Trini est ouverte toute la saison, à 500 m seulement de la mer et pouvant accueillir jusqu'à huit personnes — vous choisissez le mois qui vous convient tout en rejoignant l'eau à pied.
+Casa Trini est ouverte toute la saison, à 500 m seulement de la mer et pouvant accueillir de 1 à 8 personnes — vous choisissez le mois qui vous convient tout en rejoignant l'eau à pied.

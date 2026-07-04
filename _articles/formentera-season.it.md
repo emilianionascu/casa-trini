@@ -41,4 +41,4 @@ Ecco ciò che i visitatori sottovalutano: **ottobre è ancora un mese da spiaggi
 - **Per quiete e fiori selvatici:** maggio.
 - Quando che tu venga, porta qualcosa di leggero per la sera: la brezza marina rinfresca dopo il tramonto.
 
-Casa Trini è aperta per tutta la stagione, a soli 500 m dal mare e con posto per otto persone — così puoi scegliere il mese che preferisci e andare comunque a piedi in acqua.
+Casa Trini è aperta per tutta la stagione, a soli 500 m dal mare e con posto per 1–8 persone — così puoi scegliere il mese che preferisci e andare comunque a piedi in acqua.

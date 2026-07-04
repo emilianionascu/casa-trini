@@ -45,4 +45,4 @@ That said, a scooter or a small car gives you the freedom to reach quieter beach
 
 ## Arriving at Casa Trini
 
-Once you reach Formentera, home is close at hand. Casa Trini is a rustic house that sleeps up to eight, set just 500 metres from the sea and around 1.5 kilometres from La Savina port, near the village of **[Sant Francesc](https://www.google.com/maps/search/?api=1&query=Sant+Francesc+Formentera)**. After a plane, a ferry and a short hop by car or scooter, you will find yourself perfectly placed to slip into the gentle rhythm of island life.
+Once you reach Formentera, home is close at hand. Casa Trini is a rustic house that sleeps 1 to 8, set just 500 metres from the sea and around 1.5 kilometres from La Savina port, near the village of **[Sant Francesc](https://www.google.com/maps/search/?api=1&query=Sant+Francesc+Formentera)**. After a plane, a ferry and a short hop by car or scooter, you will find yourself perfectly placed to slip into the gentle rhythm of island life.

@@ -46,4 +46,4 @@ Gardez de la place pour le *flaó*, une tarte au fromage frais parfumée à la m
 
 ## Rapportez le marché à la Casa Trini
 
-Le meilleur moyen de comprendre la cuisine de Formentera est de la préparer soi-même. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** est une maison rustique pouvant accueillir jusqu'à huit personnes, dotée d'une cuisine entièrement équipée et d'un espace de cuisson extérieur, à proximité de Sant Francesc. Achetez du poisson frais, des figues mûres et un pot de flor de sal au marché du village, et transformez les produits du jour en un long dîner insulaire sans hâte.
+Le meilleur moyen de comprendre la cuisine de Formentera est de la préparer soi-même. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** est une maison rustique pouvant accueillir de 1 à 8 personnes, dotée d'une cuisine entièrement équipée et d'un espace de cuisson extérieur, à proximité de Sant Francesc. Achetez du poisson frais, des figues mûres et un pot de flor de sal au marché du village, et transformez les produits du jour en un long dîner insulaire sans hâte.

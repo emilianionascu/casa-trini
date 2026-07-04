@@ -45,4 +45,4 @@ Med det sagt ger en scooter eller liten bil dig friheten att nå de lugnare str�
 
 ## Framme vid Casa Trini
 
-Väl framme på Formentera är målet nära. Casa Trini är ett rustikt hus med plats för upp till åtta personer, beläget bara 500 meter från havet och cirka 1,5 kilometer från La Savinas hamn, nära byn **[Sant Francesc](https://www.google.com/maps/search/?api=1&query=Sant+Francesc+Formentera)**. Efter flyg, färja och en kort tur med bil eller scooter befinner du dig på den perfekta platsen för att glida in i öns stillsamma rytm.
+Väl framme på Formentera är målet nära. Casa Trini är ett rustikt hus med plats för 1 till 8 personer, beläget bara 500 meter från havet och cirka 1,5 kilometer från La Savinas hamn, nära byn **[Sant Francesc](https://www.google.com/maps/search/?api=1&query=Sant+Francesc+Formentera)**. Efter flyg, färja och en kort tur med bil eller scooter befinner du dig på den perfekta platsen för att glida in i öns stillsamma rytm.

@@ -41,4 +41,4 @@ In Buchten wie **[Es Caló de Sant Agusti](https://www.google.com/maps/search/?a
 - Achte die Stille: Das ländliche Tempo ist der Reiz, keine Unannehmlichkeit.
 - Besuche **[Ses Salines](https://www.google.com/maps/search/?api=1&query=Ses+Salines+Formentera)** zur goldenen Stunde und fahre hinauf zum **[Leuchtturm La Mola](https://www.google.com/maps/search/?api=1&query=Leuchtturm+La+Mola+Formentera)** für weite Ausblicke.
 
-Ein Aufenthalt in Casa Trini stellt dich mitten in dieses Erbe: ein rustikales Haus für bis zu acht Personen, nur 500 m vom Meer und rund 1 km von Sant Francesc entfernt. Mit seinen dicken weißen Mauern und seiner gelassenen Atmosphäre ist es selbst ein kleines Beispiel traditioneller Formentera-Architektur und die perfekte Basis, um den Rest zu entdecken.
+Ein Aufenthalt in Casa Trini stellt dich mitten in dieses Erbe: ein rustikales Haus für 1 bis 8 Personen, nur 500 m vom Meer und rund 1 km von Sant Francesc entfernt. Mit seinen dicken weißen Mauern und seiner gelassenen Atmosphäre ist es selbst ein kleines Beispiel traditioneller Formentera-Architektur und die perfekte Basis, um den Rest zu entdecken.

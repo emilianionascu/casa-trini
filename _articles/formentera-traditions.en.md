@@ -41,4 +41,4 @@ Down in coves such as **[Es Caló de Sant Agusti](https://www.google.com/maps/se
 - Respect the quiet: the rural pace is the point, not an inconvenience.
 - Visit **[Ses Salines](https://www.google.com/maps/search/?api=1&query=Ses+Salines+Formentera)** at golden hour, and drive up to the **[La Mola lighthouse](https://www.google.com/maps/search/?api=1&query=La+Mola+lighthouse+Formentera)** for sweeping views.
 
-A stay at Casa Trini places you right inside this heritage: a rustic house sleeping up to eight, just 500 m from the sea and roughly 1 km from Sant Francesc. With its thick white walls and unhurried air, it is itself a small example of traditional Formentera architecture, and the perfect base from which to discover the rest.
+A stay at Casa Trini places you right inside this heritage: a rustic house sleeping 1 to 8, just 500 m from the sea and roughly 1 km from Sant Francesc. With its thick white walls and unhurried air, it is itself a small example of traditional Formentera architecture, and the perfect base from which to discover the rest.

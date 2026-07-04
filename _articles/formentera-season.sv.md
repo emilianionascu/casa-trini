@@ -41,4 +41,4 @@ Här är det besökare underskattar: **oktober är fortfarande en strandmånad.*
 - **För stillhet och vildblommor:** maj.
 - Oavsett när du kommer, ta med något tunt för kvällarna — havsbrisen svalkar efter solnedgången.
 
-Casa Trini är öppet hela säsongen, bara 500 m från havet och med plats för upp till åtta personer — så du kan välja den månad som passar dig och ändå promenera ner till vattnet.
+Casa Trini är öppet hela säsongen, bara 500 m från havet och med plats för 1 till 8 personer — så du kan välja den månad som passar dig och ändå promenera ner till vattnet.

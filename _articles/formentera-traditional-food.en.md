@@ -46,4 +46,4 @@ Save room for *flaó*, a baked tart of fresh cheese scented with mint, and *grei
 
 ## Bring the market home to Casa Trini
 
-The best way to understand Formentera's food is to cook it yourself. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** is a rustic house sleeping up to eight, with a fully equipped kitchen and an outdoor cooking area, set close to Sant Francesc. Pick up fresh fish, ripe figs and a jar of flor de sal at the village market, and turn the day's produce into a long, unhurried island dinner.
+The best way to understand Formentera's food is to cook it yourself. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** is a rustic house sleeping 1 to 8, with a fully equipped kitchen and an outdoor cooking area, set close to Sant Francesc. Pick up fresh fish, ripe figs and a jar of flor de sal at the village market, and turn the day's produce into a long, unhurried island dinner.

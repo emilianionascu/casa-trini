@@ -45,4 +45,4 @@ Im Sommer erwacht der Küstenort **[Es Pujols](https://www.google.com/maps/searc
 
 Ob handbemalte Keramik, ein Schmuckstück oder eine Flasche *hierbas* - die Märkte sind der beste Weg, etwas wirklich Lokales mit nach Hause zu nehmen.
 
-Nach einem gemächlichen Abend zwischen den Ständen ist es ein Vergnügen, an einen ruhigen Ort zurückzukehren. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** ist ein rustikales Haus für bis zu acht Personen, nur 500 m vom Meer und rund 1 km von Sant Francesc entfernt - ein idealer Ausgangspunkt, um die Märkte der Insel in deinem eigenen Tempo zu erkunden.
+Nach einem gemächlichen Abend zwischen den Ständen ist es ein Vergnügen, an einen ruhigen Ort zurückzukehren. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** ist ein rustikales Haus für 1 bis 8 Personen, nur 500 m vom Meer und rund 1 km von Sant Francesc entfernt - ein idealer Ausgangspunkt, um die Märkte der Insel in deinem eigenen Tempo zu erkunden.

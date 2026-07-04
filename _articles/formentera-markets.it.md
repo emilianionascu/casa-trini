@@ -45,4 +45,4 @@ In estate, la località balneare di **[Es Pujols](https://www.google.com/maps/se
 
 Che si tratti di ceramiche dipinte a mano, di un gioiello o di una bottiglia di *hierbas*, i mercati sono il modo migliore per portare a casa qualcosa di autenticamente locale.
 
-Dopo una serata tranquilla tra i banchi, è un piacere tornare in un luogo sereno. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** è una casa rustica che ospita fino a otto persone, a soli 500 m dal mare e a circa 1 km da Sant Francesc, una base ideale per esplorare i mercati dell'isola con i tuoi tempi.
+Dopo una serata tranquilla tra i banchi, è un piacere tornare in un luogo sereno. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** è una casa rustica che ospita da 1 a 8 persone, a soli 500 m dal mare e a circa 1 km da Sant Francesc, una base ideale per esplorare i mercati dell'isola con i tuoi tempi.

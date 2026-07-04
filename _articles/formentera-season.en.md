@@ -41,4 +41,4 @@ Here's the part visitors underestimate: **October is still a beach month.** Earl
 - **For quiet and wildflowers:** May.
 - Whenever you come, pack a light layer for the evenings — the sea breeze cools things down after sunset.
 
-Casa Trini is open right across the season, just 500 m from the sea and sleeping up to eight — so you can choose the month that suits you and still walk to the water.
+Casa Trini is open right across the season, just 500 m from the sea and sleeping 1 to 8 — so you can choose the month that suits you and still walk to the water.

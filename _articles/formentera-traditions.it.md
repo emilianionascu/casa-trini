@@ -41,4 +41,4 @@ In cale come **[Es Caló de Sant Agusti](https://www.google.com/maps/search/?api
 - Rispetta il silenzio: il ritmo rurale è il fascino, non un inconveniente.
 - Visita **[Ses Salines](https://www.google.com/maps/search/?api=1&query=Ses+Salines+Formentera)** all'ora dorata e sali fino al **[faro de La Mola](https://www.google.com/maps/search/?api=1&query=faro+de+La+Mola+Formentera)** per ammirare panorami sconfinati.
 
-Un soggiorno a Casa Trini ti colloca dentro questo patrimonio: una casa rustica per un massimo di otto persone, a soli 500 m dal mare e a circa 1 km da Sant Francesc. Con i suoi spessi muri bianchi e la sua aria tranquilla, è essa stessa un piccolo esempio dell'architettura tradizionale di Formentera e la base perfetta per scoprire tutto il resto.
+Un soggiorno a Casa Trini ti colloca dentro questo patrimonio: una casa rustica per 1–8 persone, a soli 500 m dal mare e a circa 1 km da Sant Francesc. Con i suoi spessi muri bianchi e la sua aria tranquilla, è essa stessa un piccolo esempio dell'architettura tradizionale di Formentera e la base perfetta per scoprire tutto il resto.

@@ -45,4 +45,4 @@ Dennoch verschafft Ihnen ein Roller oder Kleinwagen die Freiheit, ruhigere Strä
 
 ## Ankunft in der Casa Trini
 
-Auf Formentera angekommen, ist das Ziel zum Greifen nah. Die Casa Trini ist ein rustikales Haus für bis zu acht Personen, nur 500 Meter vom Meer entfernt und rund 1,5 Kilometer vom Hafen La Savina, nahe dem Dorf **[Sant Francesc](https://www.google.com/maps/search/?api=1&query=Sant+Francesc+Formentera)**. Nach Flugzeug, Fähre und einer kurzen Fahrt mit Auto oder Roller sind Sie perfekt gelegen, um in den sanften Rhythmus des Insellebens einzutauchen.
+Auf Formentera angekommen, ist das Ziel zum Greifen nah. Die Casa Trini ist ein rustikales Haus für 1 bis 8 Personen, nur 500 Meter vom Meer entfernt und rund 1,5 Kilometer vom Hafen La Savina, nahe dem Dorf **[Sant Francesc](https://www.google.com/maps/search/?api=1&query=Sant+Francesc+Formentera)**. Nach Flugzeug, Fähre und einer kurzen Fahrt mit Auto oder Roller sind Sie perfekt gelegen, um in den sanften Rhythmus des Insellebens einzutauchen.

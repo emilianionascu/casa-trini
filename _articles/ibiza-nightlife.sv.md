@@ -46,4 +46,4 @@ För att verkligen dansa ger den anrika klubben **[Tipic](https://www.google.com
 - Planera hemresan med färjan innan du går ut och ta en skärmdump av tidtabellen.
 - Budgetera för en taxi; de är få och eftertraktade på natten.
 
-Efter ljuset och basen är det en lättnad att komma hem till lugnet. Casa Trini har plats för upp till åtta personer, ligger bara 500 m från havet nära Sant Francesc och ungefär 1,5 km från hamnen i La Savina, den perfekta rustika basen för att sova ut efter en lång natt och vakna till Formenteras stillhet.
+Efter ljuset och basen är det en lättnad att komma hem till lugnet. Casa Trini har plats för 1 till 8 personer, ligger bara 500 m från havet nära Sant Francesc och ungefär 1,5 km från hamnen i La Savina, den perfekta rustika basen för att sova ut efter en lång natt och vakna till Formenteras stillhet.

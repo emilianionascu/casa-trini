@@ -45,4 +45,4 @@ In summer, the seaside resort of **[Es Pujols](https://www.google.com/maps/searc
 
 Whether it is hand-painted ceramics, a piece of jewellery or a bottle of *hierbas*, the markets are the best way to bring home something genuinely local.
 
-After a slow evening among the stalls, it is a pleasure to return to somewhere calm. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** is a rustic house sleeping up to eight, just 500 m from the sea and about 1 km from Sant Francesc, making it an ideal base for exploring the island's markets at your own pace.
+After a slow evening among the stalls, it is a pleasure to return to somewhere calm. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** is a rustic house sleeping 1 to 8, just 500 m from the sea and about 1 km from Sant Francesc, making it an ideal base for exploring the island's markets at your own pace.

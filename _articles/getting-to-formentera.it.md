@@ -45,4 +45,4 @@ Detto questo, uno scooter o una piccola auto ti danno la libertà di raggiungere
 
 ## L'arrivo a Casa Trini
 
-Una volta giunto a Formentera, la meta è a due passi. Casa Trini è una casa rustica che ospita fino a otto persone, situata a soli 500 metri dal mare e a circa 1,5 chilometri dal porto di La Savina, vicino al paese di **[Sant Francesc](https://www.google.com/maps/search/?api=1&query=Sant+Francesc+Formentera)**. Dopo l'aereo, il traghetto e un breve tragitto in auto o scooter, ti ritroverai nella posizione ideale per lasciarti cullare dal dolce ritmo della vita isolana.
+Una volta giunto a Formentera, la meta è a due passi. Casa Trini è una casa rustica che ospita da 1 a 8 persone, situata a soli 500 metri dal mare e a circa 1,5 chilometri dal porto di La Savina, vicino al paese di **[Sant Francesc](https://www.google.com/maps/search/?api=1&query=Sant+Francesc+Formentera)**. Dopo l'aereo, il traghetto e un breve tragitto in auto o scooter, ti ritroverai nella posizione ideale per lasciarti cullare dal dolce ritmo della vita isolana.

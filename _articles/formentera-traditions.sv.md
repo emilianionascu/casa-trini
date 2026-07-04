@@ -41,4 +41,4 @@ I vikar som **[Es Caló de Sant Agusti](https://www.google.com/maps/search/?api=
 - Respektera stillheten: den lantliga takten är själva tjusningen, inte ett besvär.
 - Besök **[Ses Salines](https://www.google.com/maps/search/?api=1&query=Ses+Salines+Formentera)** i det gyllene ljuset och kör upp till **[fyren La Mola](https://www.google.com/maps/search/?api=1&query=fyren+La+Mola+Formentera)** för milsvida utsikter.
 
-En vistelse på Casa Trini placerar dig mitt i detta arv: ett rustikt hus för upp till åtta personer, bara 500 m från havet och omkring 1 km från Sant Francesc. Med sina tjocka vita murar och sin lugna atmosfär är det självt ett litet exempel på Formenteras traditionella arkitektur och den perfekta basen för att upptäcka resten.
+En vistelse på Casa Trini placerar dig mitt i detta arv: ett rustikt hus för 1 till 8 personer, bara 500 m från havet och omkring 1 km från Sant Francesc. Med sina tjocka vita murar och sin lugna atmosfär är det självt ett litet exempel på Formenteras traditionella arkitektur och den perfekta basen för att upptäcka resten.

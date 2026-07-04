@@ -46,4 +46,4 @@ Para bailar de verdad, la veterana discoteca **[Tipic](https://www.google.com/ma
 - Planea la vuelta en ferry antes de salir y hazle una captura al horario.
 - Reserva presupuesto para un taxi; escasean y hay mucha demanda de noche.
 
-Después de las luces y los graves, da gusto volver a la calma. Casa Trini duerme hasta ocho personas, está a solo 500 m del mar cerca de Sant Francesc y a unos 1,5 km del puerto de La Savina, la base rústica perfecta para dormir la fiesta y despertar con la tranquilidad de Formentera.
+Después de las luces y los graves, da gusto volver a la calma. Casa Trini duerme entre 1 y 8 personas, está a solo 500 m del mar cerca de Sant Francesc y a unos 1,5 km del puerto de La Savina, la base rústica perfecta para dormir la fiesta y despertar con la tranquilidad de Formentera.

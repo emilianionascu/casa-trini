@@ -46,4 +46,4 @@ Spara plats för *flaó*, en bakad tårta på färskost med mynta, och *greixone
 
 ## Ta med marknaden hem till Casa Trini
 
-Det bästa sättet att förstå Formenteras mat är att laga den själv. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** är ett rustikt hus för upp till åtta personer, med fullt utrustat kök och en utomhusmatlagningsplats, nära Sant Francesc. Köp färsk fisk, mogna fikon och en burk flor de sal på byns marknad och förvandla dagens råvaror till en lång, lugn middag på ön.
+Det bästa sättet att förstå Formenteras mat är att laga den själv. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** är ett rustikt hus för 1 till 8 personer, med fullt utrustat kök och en utomhusmatlagningsplats, nära Sant Francesc. Köp färsk fisk, mogna fikon och en burk flor de sal på byns marknad och förvandla dagens råvaror till en lång, lugn middag på ön.

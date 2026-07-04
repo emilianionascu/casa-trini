@@ -45,4 +45,4 @@ På sommaren vaknar badorten **[Es Pujols](https://www.google.com/maps/search/?a
 
 Oavsett om det är handmålad keramik, ett smycke eller en flaska *hierbas* är marknaderna det bästa sättet att ta med sig något genuint lokalt hem.
 
-Efter en lugn kväll bland stånden är det skönt att återvända till en stilla plats. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** är ett rustikt hus med plats för upp till åtta personer, bara 500 m från havet och cirka 1 km från Sant Francesc, vilket gör det till en idealisk bas för att utforska öns marknader i din egen takt.
+Efter en lugn kväll bland stånden är det skönt att återvända till en stilla plats. **[Casa Trini](https://www.google.com/maps/search/?api=1&query=Casa+Trini+Formentera)** är ett rustikt hus med plats för 1 till 8 personer, bara 500 m från havet och cirka 1 km från Sant Francesc, vilket gör det till en idealisk bas för att utforska öns marknader i din egen takt.
