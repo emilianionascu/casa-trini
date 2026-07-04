@@ -352,9 +352,17 @@ a  { color: inherit; text-decoration: none; }
     transform: translateX(100%); transition: transform .32s ease;
   }
   .nav.open { transform: translateX(0); }
+  /* backdrop-filter on the header makes it the containing block for the fixed
+     drawer (collapsing it when scrolled). Drop the blur on mobile — the header
+     bg is ~97% opaque anyway — so the drawer sizes to the viewport. */
+  .site-header.scrolled, .site-header.is-solid { -webkit-backdrop-filter: none; backdrop-filter: none; }
   .nav > a { color: var(--ink); font-size: 1.1rem; }
   .lang-switch { margin-top: 1rem; }
   .lang-btn { color: var(--ink); border-color: var(--line); background: transparent; }
+  /* The closed language dropdown is absolutely positioned; on mobile it still
+     reserves space and inflates the drawer's scroll area, causing a needless
+     scrollbar. Remove it from layout when closed. */
+  .lang-menu:not(.open) { display: none; }
   .hero { background-attachment: scroll; }
   .field.two { grid-template-columns: 1fr; }
   .highlight { flex-basis: 42%; }
