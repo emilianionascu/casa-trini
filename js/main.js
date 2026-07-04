@@ -122,7 +122,7 @@ GALLERY.forEach((item, i) => {
   img.decoding = "async";
   if (item.w) img.width = item.w;
   if (item.h) img.height = item.h;
-  img.alt = "Casa Trini Formentera — holiday home in Formentera, photo " + (i + 1);
+  img.alt = item.alt || "Casa Trini Formentera — rustic holiday villa near the sea in Formentera";
   fig.appendChild(img);
   grid.appendChild(fig);
 });
