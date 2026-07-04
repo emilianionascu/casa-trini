@@ -70,7 +70,7 @@ const I18N = {
     "hero.flex": "Privacidad y flexibilidad",
     "hero.ctaBook": "Consultar disponibilidad", "hero.ctaGallery": "Ver la casa",
     "about.eyebrow": "La Casa",
-    "about.title": "Un refugio rústico para hasta ocho",
+    "about.title": "Un refugio rústico y tradicional",
     "about.p1": "¡Refugio perfecto y adaptabilidad en la idílica Formentera! Nuestro hogar es un refugio inmejorable, diseñado para acoger a un viajero solitario, a una pareja en luna de miel, a familias enteras o a grupos de amigos buscando el retiro perfecto.",
     "about.p2": "Sus dos cuerpos independientes nos permiten adaptarnos a tus necesidades, desde 1 a 8 personas. No dudes en consultarnos por los precios, pues, por supuesto, varían según el número de ocupantes.",
     "about.p3": "Nuestra vivienda rinde homenaje a la tradición formenterense: paredes blancas que contrastan con la piedra rústica, vigas de madera que aportan carácter y detalles como las clásicas sillas de cuerda payesas. Los muebles de madera realzan la esencia de este pequeño paraíso.",
