@@ -46,4 +46,4 @@ Wer wirklich tanzen will, findet im alteingesessenen Club **[Tipic](https://www.
 - Plane die Rückfahrt mit der Fähre vor dem Losgehen und mach einen Screenshot vom Fahrplan.
 - Kalkuliere ein Taxi ein; nachts sind sie knapp und stark gefragt.
 
-Nach Licht und Bass ist es eine Wohltat, in die Ruhe heimzukehren. Casa Trini bietet Platz für 1 bis 8 Personen, liegt nur 500 m vom Meer bei Sant Francesc und rund 1,5 km vom Hafen La Savina entfernt, die perfekte rustikale Basis, um eine lange Nacht auszuschlafen und in der Stille Formenteras aufzuwachen.
+Nach Licht und Bass ist es eine Wohltat, in die Ruhe heimzukehren. Casa Trini bietet Platz für 1 bis 8 Personen und liegt nur 500 Meter vom Meer entfernt, nahe Sant Francesc und rund 1,5 km vom Hafen La Savina. Es ist die perfekte rustikale Basis, um nach der Feier auszuruhen und in der ganzen Ruhe Formenteras aufzuwachen.

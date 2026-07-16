@@ -46,4 +46,4 @@ For a proper dance, the long-running **[Tipic](https://www.google.com/maps/searc
 - Plan your ferry return before you leave, and screenshot the timetable.
 - Budget for a taxi at either end, as they are limited and in demand at night.
 
-After the lights and the bass, it is a relief to come home to calm. Casa Trini sleeps 1 to 8, sits just 500 m from the sea near Sant Francesc and around 1.5 km from the La Savina port, making it the perfect rustic base to sleep off a big night and wake to the quiet of Formentera.
+After the lights and the bass, it is a relief to come home to calm. Casa Trini sleeps 1 to 8 and sits just 500 metres from the sea, near Sant Francesc and around 1.5 km from the port of La Savina. It is the perfect rustic base to rest after the party and wake to the full calm of Formentera.
