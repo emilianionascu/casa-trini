@@ -12,7 +12,7 @@
 
 backend:
   name: github
-  repo: emilianionascu/casa-trini
+  repo: themayans/casa-trini
   branch: main
   base_url: https://REPLACE-WITH-YOUR-WORKER.workers.dev   # <-- OAuth relay URL
 
@@ -23,8 +23,8 @@ backend:
 media_folder: "assets/images/blog"
 public_folder: "/assets/images/blog"
 
-site_url: https://emilianionascu.github.io/casa-trini/
-display_url: https://emilianionascu.github.io/casa-trini/
+site_url: https://themayans.github.io/casa-trini/
+display_url: https://themayans.github.io/casa-trini/
 
 collections:
   - name: articles

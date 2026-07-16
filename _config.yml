@@ -9,12 +9,12 @@ description: A rustic holiday home on Formentera, 500 m from the sea.
 author: Casa Trini Formentera
 
 # --- Domain -----------------------------------------------------------------
-# The site is currently served at https://emilianionascu.github.io/casa-trini/.
+# The site is currently served at https://themayans.github.io/casa-trini/.
 # WHEN THE CUSTOM DOMAIN GOES LIVE, change these two lines to:
 #     url: "https://casatriniformentera.com"
 #     baseurl: ""
 # (nothing else needs to change — all blog links use these values).
-url: "https://emilianionascu.github.io"
+url: "https://themayans.github.io"
 baseurl: "/casa-trini"
 
 # --- Blog content -----------------------------------------------------------

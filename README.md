@@ -5,8 +5,8 @@ A static, multilingual marketing & booking site for **Casa Trini Formentera**, a
 Modelled on the original https://casatriniformentera.com/, expanded with 6 languages, a full gallery with lightbox, an amenities section, a map, and an inquiry form + booking links.
 
 **Live site:** hosted on GitHub Pages from the `main` branch of
-[emilianionascu/casa-trini](https://github.com/emilianionascu/casa-trini) →
-https://emilianionascu.github.io/casa-trini/. To update the live site, commit and
+[themayans/casa-trini](https://github.com/themayans/casa-trini) →
+https://themayans.github.io/casa-trini/. To update the live site, commit and
 push to `main`; Pages rebuilds automatically in ~1 minute.
 
 ## Structure
@@ -97,12 +97,12 @@ the editor needs a tiny free "OAuth relay":
    `https://sveltia-cms-auth.<you>.workers.dev`.
 2. **Create a GitHub OAuth App.** GitHub → Settings → Developer settings →
    OAuth Apps → *New OAuth App*.
-   - Homepage URL: `https://emilianionascu.github.io/casa-trini/`
+   - Homepage URL: `https://themayans.github.io/casa-trini/`
    - Authorization callback URL: `https://sveltia-cms-auth.<you>.workers.dev/callback`
    Register it, copy the **Client ID**, and generate a **Client secret**.
 3. **Give the Worker the credentials.** In the Cloudflare Worker's settings, add
    variables `GITHUB_CLIENT_ID`, `GITHUB_CLIENT_SECRET`, and
-   `ALLOWED_DOMAINS = emilianionascu.github.io,casatriniformentera.com`.
+   `ALLOWED_DOMAINS = themayans.github.io,casatriniformentera.com`.
 4. **Point the CMS at the Worker.** In `admin/config.yml`, set `backend.base_url`
    to your Worker URL (replace the placeholder) and commit.
 
