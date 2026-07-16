@@ -7,7 +7,7 @@ description: "Découvrez les marchés de Formentera : le marché hippie mythique
 date: 2026-07-01
 category: "Marchés et shopping"
 image: /assets/images/blog/markets.webp
-image_credit: "Photo: Daderot / Wikimedia Commons (CC BY-SA 3.0)"
+image_credit: "Photo: Samu / Wikimedia Commons (CC BY 2.0)"
 author: Casa Trini Formentera
 ---
 
