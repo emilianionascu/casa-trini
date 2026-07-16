@@ -110,3 +110,88 @@ You own the org **themayans** and the repo **themayans/casa-trini**.
 
 **Rollback (if ever needed):** the domain administrator restores the previous DNS
 records — the old site reappears as DNS propagates. Nothing on GitHub needs undoing.
+
+---
+
+# Versiunea în română
+
+## Mutarea domeniului casatriniformentera.com pe noul site (GitHub Pages)
+
+Noul site Casa Trini este gata și funcționează la
+**https://themayans.github.io/casa-trini/**. Pentru ca el să apară la
+**https://casatriniformentera.com/**, două persoane fac fiecare câte o parte,
+**în această ordine**:
+
+1. **Partea A — administratorul domeniului** modifică înregistrările DNS.
+2. **Partea B — proprietarul GitHub** conectează domeniul și comută configurația site-ului.
+
+> ⚠️ După finalizarea ambelor părți, domeniul va afișa site-ul **nou** în locul celui
+> vechi. Păstrați activ vechiul hosting (nu-l anulați) încă vreo două săptămâni, ca
+> rezervă — revenirea înseamnă doar restaurarea vechilor înregistrări DNS.
+
+### PARTEA A — Pentru administratorul domeniului (DNS)
+
+În zona DNS a domeniului **casatriniformentera.com**, vă rugăm să faceți următoarele modificări:
+
+**1. Domeniul rădăcină — `casatriniformentera.com` (numele `@`):**
+Ștergeți înregistrările `A` (și `AAAA`, dacă există) actuale pentru `@` și creați
+**patru înregistrări A noi**:
+
+| Tip | Nume | Valoare            |
+|-----|------|--------------------|
+| A   | @    | 185.199.108.153    |
+| A   | @    | 185.199.109.153    |
+| A   | @    | 185.199.110.153    |
+| A   | @    | 185.199.111.153    |
+
+Opțional, și patru înregistrări `AAAA` (IPv6): `2606:50c0:8000::153`,
+`2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`.
+
+**2. Subdomeniul `www`:**
+Ștergeți orice înregistrare `A`/`CNAME` existentă pentru `www` și creați
+**o înregistrare CNAME**:
+
+| Tip   | Nume | Valoare               |
+|-------|------|-----------------------|
+| CNAME | www  | themayans.github.io   |
+
+**Important:**
+- **Nu** modificați nimic altceva — lăsați neatinse înregistrările MX (e-mail), TXT și celelalte.
+- Folosiți TTL-ul implicit (sau 300–3600 s pentru o propagare mai rapidă).
+- Dacă există o înregistrare CAA, ea trebuie să permită `letsencrypt.org` (sau pur și simplu să nu existe CAA).
+- După salvare, vă rugăm să confirmați proprietarului site-ului că ați terminat.
+
+### PARTEA B — Pentru proprietarul GitHub (după confirmarea Părții A)
+
+Dețineți organizația **themayans** și repository-ul **themayans/casa-trini**.
+
+**1. Conectați domeniul în GitHub:**
+- Deschideți https://github.com/themayans/casa-trini/settings/pages
+- La **Custom domain**, introduceți `casatriniformentera.com` și apăsați **Save**.
+- GitHub rulează o verificare DNS. Așteptați până apare **„DNS check successful”**.
+  (Dacă eșuează, DNS-ul nu s-a propagat încă — așteptați 15–60 de minute și apăsați Save din nou.)
+
+**2. Activați HTTPS:**
+- Pe aceeași pagină, GitHub solicită automat un certificat TLS (durează de la câteva
+  minute până la ~1 oră după trecerea verificării DNS).
+- Când caseta devine disponibilă, bifați **„Enforce HTTPS”**.
+
+**3. Comutați site-ul pe modul domeniu-rădăcină** (codul este construit acum pentru
+`/casa-trini`; pe domeniu trebuie construit pentru `/`). Se schimbă trei lucruri:
+- `_config.yml`: `url: "https://casatriniformentera.com"` și `baseurl: ""`
+- `scripts/build-home.js`: `BASE = ""`
+- Regenerați paginile (`npm run build:home`), commit, push.
+
+> Cel mai simplu: spuneți-i lui Claude — „DNS-ul e gata, fă cutover-ul de domeniu” —
+> iar acest pas, împreună cu verificarea, se execută și se publică automat.
+
+**4. Verificați:**
+- https://casatriniformentera.com/ afișează noua pagină principală (în spaniolă)
+- https://casatriniformentera.com/en/ (și /de/ /it/ /fr/ /sv/) funcționează
+- https://casatriniformentera.com/blog/ afișează blogul
+- https://www.casatriniformentera.com/ redirecționează către domeniul rădăcină
+- Lacătul (certificat HTTPS valid) apare în browser
+
+**Revenire (dacă este vreodată nevoie):** administratorul domeniului restaurează vechile
+înregistrări DNS — site-ul vechi reapare pe măsură ce DNS-ul se propagă. În GitHub nu
+trebuie anulat nimic.
