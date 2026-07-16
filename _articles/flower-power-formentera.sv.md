@@ -27,7 +27,17 @@ Bäst av allt: festen är **gratis och öppen för alla**. Familjer, barn, far- 
 
 Festen är ingen kuliss — den är levande minne. I slutet av sextiotalet slog sig en hippiegemenskap ner på Formentera, med rötter i Tyskland, Frankrike och USA, lockad av ett enkelt liv bland fikonträd, väderkvarnar och hav. Legenden säger att musiker som Bob Dylan och Pink Floyd tillbringade långa perioder på ön, och den andan av frihet och kreativitet satte spår.
 
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/flower-power-3.webp' | relative_url }}" alt="Molí Vell de la Mola, Formentera's historic windmill" loading="lazy" />
+  <figcaption>Molí Vell de la Mola — Photo: Fabian Hurst / Wikimedia Commons (CC BY-SA 4.0)</figcaption>
+</figure>
+
 Arvet lever vidare på [hippiemarknaden i La Mola](/blog/sv/guide-formentera-marknader/), i öns hantverk och i den avslappnade stil som präglar hela Formentera. Flower Power är helt enkelt natten då ön firar det i full skrud.
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/markets.webp' | relative_url }}" alt="The hippy market at El Pilar de la Mola, Formentera" loading="lazy" />
+  <figcaption>Hippy market at El Pilar de la Mola — Photo: Samu / Wikimedia Commons (CC BY 2.0)</figcaption>
+</figure>
 
 ## Tips för att njuta fullt ut
 

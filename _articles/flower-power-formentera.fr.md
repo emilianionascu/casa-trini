@@ -27,7 +27,17 @@ Cerise sur le gâteau : la fête est **gratuite et ouverte à tous**. Familles, 
 
 Cette fête n'est pas un décor : c'est une mémoire vivante. À la fin des années soixante, Formentera a accueilli une communauté hippie venue d'Allemagne, de France et des États-Unis, attirée par une vie simple entre figuiers, moulins et mer. La légende raconte que des musiciens comme Bob Dylan ou les Pink Floyd ont longuement séjourné sur l'île — cet esprit de liberté et de créativité a laissé son empreinte.
 
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/flower-power-3.webp' | relative_url }}" alt="Molí Vell de la Mola, Formentera's historic windmill" loading="lazy" />
+  <figcaption>Molí Vell de la Mola — Photo: Fabian Hurst / Wikimedia Commons (CC BY-SA 4.0)</figcaption>
+</figure>
+
 Cet héritage vit encore aujourd'hui au [marché hippie de La Mola](/blog/fr/guide-marches-formentera/), dans l'artisanat local et dans le style détendu qui imprègne toute l'île. Le Flower Power, c'est simplement la nuit où Formentera le célèbre en habits de fête.
+
+<figure class="post-fig">
+  <img src="{{ '/assets/images/blog/markets.webp' | relative_url }}" alt="The hippy market at El Pilar de la Mola, Formentera" loading="lazy" />
+  <figcaption>Hippy market at El Pilar de la Mola — Photo: Samu / Wikimedia Commons (CC BY 2.0)</figcaption>
+</figure>
 
 ## Conseils pour en profiter à fond
 
