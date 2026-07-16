@@ -23,8 +23,8 @@ backend:
 media_folder: "assets/images/blog"
 public_folder: "/assets/images/blog"
 
-site_url: https://themayans.github.io/casa-trini/
-display_url: https://themayans.github.io/casa-trini/
+site_url: https://casatriniformentera.com/
+display_url: https://casatriniformentera.com/
 
 collections:
   - name: articles

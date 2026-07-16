@@ -7,7 +7,7 @@
  */
 const fs = require("fs"), path = require("path"), cheerio = require("cheerio");
 const ROOT = path.resolve(__dirname, "..");
-const BASE = "/casa-trini";                       // deploy subpath (set "" at domain launch)
+const BASE = "";                                  // served at the domain root (custom domain live)
 const DOMAIN = "https://casatriniformentera.com"; // absolute base for canonical/hreflang/og
 
 const I18N = new Function(fs.readFileSync(path.join(ROOT, "js/i18n.js"), "utf8") + "; return I18N;")();

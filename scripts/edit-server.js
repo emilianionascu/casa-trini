@@ -2,7 +2,7 @@
  *
  *   1) docker compose up          (Jekyll preview on :4000)
  *   2) npm run edit               (this proxy on :4001)
- *   3) open http://localhost:4001/casa-trini/  → click any text, edit, click away to save.
+ *   3) open http://localhost:4001/  → click any text, edit, click away to save.
  *
  * It proxies the Jekyll preview, injects a click-to-edit layer, and on save writes the
  * change straight into js/i18n.js (for the page's language) then regenerates the pages.
@@ -145,4 +145,4 @@ const server = http.createServer((req, res) => {
     })
     .catch((e) => { res.writeHead(502); res.end("Jekyll preview not reachable on :4000 — run `docker compose up` first.\n" + e); });
 });
-server.listen(PORT, () => console.log("In-place editor  →  http://localhost:" + PORT + "/casa-trini/   (proxying " + UPSTREAM + ")"));
+server.listen(PORT, () => console.log("In-place editor  →  http://localhost:" + PORT + "/   (proxying " + UPSTREAM + ")"));

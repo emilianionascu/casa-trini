@@ -6,7 +6,7 @@ Modelled on the original https://casatriniformentera.com/, expanded with 6 langu
 
 **Live site:** hosted on GitHub Pages from the `main` branch of
 [themayans/casa-trini](https://github.com/themayans/casa-trini) →
-https://themayans.github.io/casa-trini/. To update the live site, commit and
+https://casatriniformentera.com/. To update the live site, commit and
 push to `main`; Pages rebuilds automatically in ~1 minute.
 
 ## Structure
@@ -32,8 +32,8 @@ static file server won't render it. Use Docker — it serves the **entire** site
 docker compose up
 ```
 
-Then open **http://localhost:4000/casa-trini/** — that one URL is the whole site:
-the home page, the gallery, and the blog at `/casa-trini/blog/`. The first run
+Then open **http://localhost:4000/** — that one URL is the whole site:
+the home page, the gallery, and the blog at `/blog/`. The first run
 installs the gems (a few minutes); later runs are instant. Article and layout
 edits reload automatically. Press `Ctrl+C` to stop.
 
@@ -71,7 +71,7 @@ docker compose up    # terminal 1 — the Jekyll preview (:4000)
 npm run edit         # terminal 2 — the in-place editor (:4001)
 ```
 
-Open **http://localhost:4001/casa-trini/**, click any heading or paragraph, type your
+Open **http://localhost:4001/**, click any heading or paragraph, type your
 change, and click away (or press Enter) to save — it writes into `js/i18n.js` for that
 page's **language** and regenerates the homepages. Switch language with the header
 dropdown to edit that language's copy. Press `Esc` to cancel an edit. When you're happy,
@@ -97,7 +97,7 @@ the editor needs a tiny free "OAuth relay":
    `https://sveltia-cms-auth.<you>.workers.dev`.
 2. **Create a GitHub OAuth App.** GitHub → Settings → Developer settings →
    OAuth Apps → *New OAuth App*.
-   - Homepage URL: `https://themayans.github.io/casa-trini/`
+   - Homepage URL: `https://casatriniformentera.com/`
    - Authorization callback URL: `https://sveltia-cms-auth.<you>.workers.dev/callback`
    Register it, copy the **Client ID**, and generate a **Client secret**.
 3. **Give the Worker the credentials.** In the Cloudflare Worker's settings, add
